@@ -1,0 +1,474 @@
+{
+  "${modID}:Strike_Frost": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "${modID}:Defend_Frost": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:22_CARD": {
+    "NAME": "22?",
+    "DESCRIPTION": "Gain !M! Strength. NL Gain !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Gain !M! + !M! Strength. NL Gain !M! + !M! Dexterity."
+  },
+  "${modID}:SAVE_ME_HANNAH": {
+    "NAME": "Save Me Hannah!",
+    "DESCRIPTION": "Retain. NL Gain !B! Block. NL When Retained, gain !M! Block (lil kiss<3). NL ${modID}:Performance 1."
+  },
+  "${modID}:SUGAR_GLIDE": {
+    "NAME": "Sugar Glide!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ${modID}:Choose_One: NL Deal !D! damage, or NL Draw !M! Cards."
+  },
+  "${modID}:SUGAR_GLIDE_BUGS_OPTION": {
+    "NAME": "Bugs!",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:SUGAR_GLIDE_BABY_OPTION": {
+    "NAME": "Baby!",
+    "DESCRIPTION": "Draw !M! Cards."
+  },
+  "${modID}:CUM_GANG_CARD": {
+    "NAME": "Cum Gang!",
+    "DESCRIPTION": "${modID}:Gang_Card. Draw 1 card. NL Repeat for every 2 Cum Gang cards played this combat."
+  },
+  "${modID}:TAKING_SECONDS_CARD": {
+    "NAME": "Taking Seconds",
+    "DESCRIPTION": "Your ${modID}:Choose_One cards allow you to pick 1 extra option."
+  },
+  "${modID}:CLOTHED_MOLE_RAT_GANG_CARD": {
+    "NAME": "CMR Gang!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL For each Clothed Mole Rat Gang card played this combat apply a random debuff to the enemy.",
+    "UPGRADE_DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL For each Clothed Mole Rat Gang card played this combat randomly either apply a random debuff to the enemy or random buff to yourself."
+  },
+  "${modID}:MILF_GANG_CARD": {
+    "NAME": "MILF Gang!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Gain !B! Block. NL Increase by !M! for each MILF Gang card played this combat"
+  },
+  "${modID}:CLAW_GANG_CARD": {
+    "NAME": "Claw Gang!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by 2 for each Claw Gang card played this combat. NL ${modID}:Performance 2.",
+    "UPGRADE_DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by 2 for each Claw Gang card played this combat. NL ${modID}:Performance 2."
+  },
+  "${modID}:GANG_UP_CARD": {
+    "NAME": "Gang Up",
+    "DESCRIPTION": "${modID}:Choose_One: NL Return 1 card from each gang, or all cards from 1 gang to your hand from your discard pile"
+  },
+  "${modID}:GANG_UP_ONE_GANG_OPTION": {
+    "NAME": "One Gang",
+    "DESCRIPTION": "Return ALL cards from one gang to your hand from your discard pile."
+  },
+  "${modID}:GANG_UP_CLAW_GANG_OPTION": {
+    "NAME": "Claw Gang",
+    "DESCRIPTION": "Return ALL cards from Claw Gang to your hand from your discard pile."
+  },
+  "${modID}:GANG_UP_MILF_GANG_OPTION": {
+    "NAME": "MILF Gang",
+    "DESCRIPTION": "Return ALL cards from MILF Gang to your hand from your discard pile."
+  },
+  "${modID}:GANG_UP_CLOTHED_MOLE_RAT_GANG_OPTION": {
+    "NAME": "CMR Gang",
+    "DESCRIPTION": "Return ALL cards from Clothed Mole Rat Gang to your hand from your discard pile."
+  },
+  "${modID}:GANG_UP_CUM_GANG_OPTION": {
+    "NAME": "Cum Gang",
+    "DESCRIPTION": "Return ALL cards from Cum Gang to your hand from your discard pile."
+  },
+  "${modID}:GANG_UP_ALL_GANGS_OPTION": {
+    "NAME": "All Gangs",
+    "DESCRIPTION": "Return 1 Card from each gang to your hand from your discard pile."
+  },
+  "${modID}:MILF_GANG_SLAM_CARD": {
+    "NAME": "MILF Gang Slam!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal damage equal to your current Block. This card's damage is also increased by Dexterity."
+  },
+  "${modID}:CLOTHED_MOLE_RAT_GANG_SLAM_CARD": {
+    "NAME": "CMR Gang Slam!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Play NL Clothed Mole Rat Gang! NL on each enemy.",
+    "UPGRADE_DESCRIPTION": "Play NL Clothed Mole Rat Gang!+ NL on each enemy."
+  },
+  "${modID}:CUM_GANG_SLAM_CARD": {
+    "NAME": "Cum Gang Slam!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !M! damage.  Damage is equal to the number of cards played this turn plus your current hand size.",
+    "UPGRADE_DESCRIPTION": "${modID}:Gang_Card. NL Deal !M! damage.  Damage is equal to twice the number of cards played this turn plus your current hand size."
+  },
+  "${modID}:GANG_GANG_CARD": {
+    "NAME": "Gang Gang!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Progress all gangs by 1."
+  },
+  "${modID}:FIND_A_FRIEND_CARD": {
+    "NAME": "Find a Friend",
+    "DESCRIPTION": "Draw !M! gang card(s) from your draw pile."
+  },
+  "${modID}:POWER_OF_FRIENDSHIP_CARD": {
+    "NAME": "Power Of\nFriendship!",
+    "DESCRIPTION": "Gain 1 Energy for each gang card in your hand."
+  },
+  "${modID}:GANG_LEADER_CARD": {
+    "NAME": "Gang Leader",
+    "DESCRIPTION": "At the end of your turn progress all gangs by !M!."
+  },
+  "${modID}:GANG_LOYALTY_CLAW_GANG_OPTION": {
+  "NAME": "Claw Gang",
+  "DESCRIPTION": "Draw !M! Cards, discard any that are not Claw Gang."
+},
+  "${modID}:GANG_LOYALTY_MILF_GANG_OPTION": {
+    "NAME": "MILF Gang",
+    "DESCRIPTION": "Draw !M! Cards, discard any that are not MILF Gang."
+  },
+  "${modID}:GANG_LOYALTY_CLOTHED_MOLE_RAT_GANG_OPTION": {
+    "NAME": "CMR Gang",
+    "DESCRIPTION": "Draw !M! Cards, discard any that are not Clothed Mole Rat Gang."
+  },
+  "${modID}:GANG_LOYALTY_CUM_GANG_OPTION": {
+    "NAME": "Cum Gang",
+    "DESCRIPTION": "Draw !M! Cards, discard any that are not Claw Gang."
+  },
+  "${modID}:GANG_LOYALTY_CARD": {
+    "NAME": "Gang Loyalty",
+    "DESCRIPTION": "${modID}:Choose_One: NL Select a gang and Draw !M! Cards, discard any that are not of that Gang."
+  },
+  "${modID}:GANG_SHEEP_CARD": {
+    "NAME": "Gang Sheep",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you play a gang card, return this to your hand from your discard pile."
+  },
+  "${modID}:INFIGHTING_CARD": {
+    "NAME": "Infighting",
+    "DESCRIPTION": "Discard all gang cards in your hand. Deal !D! damage to a random enemy for each card discarded."
+  },
+  "${modID}:GANG_INFLUENCE_CARD": {
+    "NAME": "Gang Influence",
+    "DESCRIPTION": "Gain 1 ${modID}:Subscriber for every !M! gang cards played this combat. NL Exhaust."
+  },
+  "${modID}:GANG_LORD_CARD": {
+    "NAME": "Gang Lord",
+    "DESCRIPTION": "Whenever you progress a Gang, progress them by !M! more."
+  },
+  "${modID}:JOINING_FORCES_CARD": {
+    "NAME": "Joining Forces!",
+    "DESCRIPTION": "ALL gangs are progressed by any Gang card played this turn."
+  },
+  "${modID}:GANG_GANG_SLAM_CARD": {
+    "NAME": "Gang Gang Slam!",
+    "DESCRIPTION": "${modID}:Gang_Card. NL Add an ethereal copy of each slam card to your hand, they cost 0 and exhaust this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Cards are added in this order:",
+      "Cum Gang Slam!, MILF Gang Slam!, Clothed Mole Rat Gang Slam!",
+      "If your hand is too big extra cards are lost."
+    ]
+  },
+  "${modID}:PLAYING_CATCH_UP_CARD": {
+    "NAME": "Playing Catch Up",
+    "DESCRIPTION": "Progress your least progressed gang by !M!. Gangs must be at at least 1 to be affected. NL Exhaust"
+  },
+  "${modID}:GO_BUGS_CARD": {
+    "NAME": "Go Bugs!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:GO_BABY_CARD": {
+    "NAME": "Go Baby!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Give ALL enemies - !M! Strength. NL Exhaust."
+  },
+  "${modID}:BUNNY_TAG_TEAM_CARD": {
+    "NAME": "Bunny Tag Team!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ${modID}:Choose_One: NL Deal !D! damage, or gain !B! Block and draw !M! Card."
+  },
+  "${modID}:BUNNY_TAG_TEAM_BUN_OPTION": {
+    "NAME": "Bun!",
+    "DESCRIPTION": "Gain !B! Block, Draw !M! Card."
+  },
+  "${modID}:BUNNY_TAG_TEAM_BEVIN_OPTION": {
+    "NAME": "Bevin!",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "${modID}:BUNS_BEAUTY_CARD": {
+    "NAME": "Bun's Beauty",
+    "DESCRIPTION": "${modID}:Animal_Card. NL To ALL Enemies: NL If the enemy plans to attack, apply !M! weak, otherwise apply !M! vulnerable. NL Gain !B! Block."
+  },
+  "${modID}:BEVINS_BASH_CARD": {
+    "NAME": "Bevin's Bash",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! damage and apply !M! vulnerable to an enemy."
+  },
+  "${modID}:YEP_CARD": {
+  "NAME": "YEP!",
+  "DESCRIPTION": "Deal !D! damage, if you took damage this combat, do it again. NL ${modID}:Performance 2."
+},
+  "${modID}:BEVIN_BOUNCE_CARD": {
+  "NAME": "Bevin Bounce!",
+  "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! Damage to a random enemy twice."
+},
+  "${modID}:BLADE_CRONCH_CARD": {
+    "NAME": "Blade CRONCH!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! Damage. NL If the enemy has Vulnerable, do it again."
+  },
+  "${modID}:COCKROACH_CRUNCH_CARD": {
+    "NAME": "Cockroach Crunch!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! Damage. NL If that would bring them to !M! hp or below, kill them."
+  },
+  "${modID}:HARDY_HOWL_CARD": {
+    "NAME": "Hardy Howl!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Apply 2 weak to all enemies, gain !M! Temporary Strength."
+  },
+  "${modID}:HAMPTER_HIDE_CARD": {
+    "NAME": "Hampter Hide!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL After the first instance of unblocked damage on the next !M! turn(s) gain 1 intangible."
+  },
+  "${modID}:BAYBLADE_CARD": {
+    "NAME": "Bayblade!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! damage X + 1 times."
+  },
+  "${modID}:HARDY_BOY_STOMP_CARD": {
+    "NAME": "Hardy Boy Stomp!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ${modID}:Choose_One: NL Deal !D! damage and apply !M! vulnerable, or deal !B! damage."
+  },
+  "${modID}:HARDY_BOY_STOMP_BIG_STOMP_OPTION": {
+    "NAME": "Big Stomp!",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:HARDY_BOY_STOMP_CRUSHING_STOMP_OPTION": {
+    "NAME": "Crushing Stomp!",
+    "DESCRIPTION": "Deal !D! damage and apply !M! vulnerable."
+  },
+  "${modID}:SLAY_THE_STREAMER_CARD": {
+    "NAME": "Slay The Streamer",
+    "DESCRIPTION": "Give yourself -X Dexterity NL Gain X ${modID}:Subscribers. NL ${modID}:Performance 2.",
+    "UPGRADE_DESCRIPTION": "Give yourself -X Dexterity NL Gain X + 1 ${modID}:Subscribers. NL ${modID}:Performance 2."
+  },
+  "${modID}:GLIDER_TAG_TEAM_CARD": {
+    "NAME": "Glider Tag Team",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ${modID}:Choose_One: NL Deal !D! Damage, or give an enemy !M! Strength."
+  },
+  "${modID}:GLIDER_TAG_TEAM_DIVE_BOMB_DUO_OPTION": {
+    "NAME": "Dive Bomb Duo",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:GLIDER_TAG_TEAM_EVASIVE_MANEUVERS_OPTION": {
+    "NAME": "Evasive Maneuvers",
+    "DESCRIPTION": "Give an enemy !M! Strength."
+  },
+  "${modID}:HAMPTER_IN_THE_SHADOWS_CARD": {
+    "NAME": "Shadow Hampter",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Deal !D! damage, if the enemy is below 50% HP, deal !D! damage 2 more times."
+  },
+  "${modID}:THEY_CAME_FOR_THE_PETS_CARD": {
+    "NAME": "They Came For\nThe Pets",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Whenever you play an Animal Card this turn, gain 1 ${modID}:Follower. NL ${modID}:Performance 2."
+  },
+  "${modID}:LIVING_IN_A_ZOO_CARD": {
+    "NAME": "Living In a Zoo",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Draw !M! Cards, discard any that are not Animal Cards."
+  },
+  "${modID}:ILL_GIVE_YOU_A_TREAT_CARD": {
+    "NAME": "I'll Give you a Treat",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Your next animal card this turn plays twice."
+  },
+  "${modID}:PETS_ARE_THEIR_OWN_REWARD_CARD": {
+    "NAME": "Pets Are Their\nOwn Reward",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ALL Animal Cards cost !M! less to play this combat."
+  },
+  "${modID}:TASTE_THE_WILD_CARD": {
+    "NAME": "Taste the Wild",
+    "DESCRIPTION": "${modID}:Animal_Card. NL ${modID}:Choose_One: NL Deal !D! Damage to ALL enemies, or reduce the cost of ALL Animal Cards in your hand to 0 this turn."
+  },
+  "${modID}:TASTE_THE_WILD_RAMPAGE_OPTION": {
+    "NAME": "Rampage",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "${modID}:TASTE_THE_WILD_FORM_A_PACK_OPTION": {
+    "NAME": "Form a Pack",
+    "DESCRIPTION": "Reduce the cost of ALL Animal Cards in your hand to 0 this turn."
+  },
+  "${modID}:TOO_CUTE_CARD": {
+    "NAME": "Too Cute!",
+    "DESCRIPTION": "${modID}:Animal_Card. NL Gain !M! Intangible. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Animal_Card. NL Gain !M! Intangible."
+  },
+  "${modID}:END_OF_STREAM_FATIGUE_CARD": {
+  "NAME": "Stream End Fatigue",
+  "DESCRIPTION": "Give yourself -X Strength, gain X ${modID}:Subscribers. NL ${modID}:Performance 2.",
+    "UPGRADE_DESCRIPTION": "Give yourself -X Strength NL Gain X + 1 ${modID}:Subscribers. NL ${modID}:Performance 2."
+  },
+  "${modID}:GET_EM_BOYS_CARD": {
+  "NAME": "Get 'em Boys!",
+  "DESCRIPTION": "Deal !D! damage to a random enemy, repeat for every !M! ${modID}:Followers."
+  },
+  "${modID}:MOB_MENTALITY_CARD": {
+    "NAME": "Mob Mentality",
+    "DESCRIPTION": "Gain Block equal to half your ${modID}:Follower Count (Miniumum 1)."
+  },
+  "${modID}:CROWDFUNDED_CARD": {
+    "NAME": "Crowdfunded",
+    "DESCRIPTION": "Gain Gold equal to 1 third your ${modID}:Follower Count (Miniumum 1). NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Gain Gold equal to half your ${modID}:Follower Count (Miniumum 1). NL Exhaust"
+  },
+  "${modID}:GREEDY_STREAMER_PLAY_IT_SAFE_OPTION": {
+    "NAME": "Play it Safe",
+    "DESCRIPTION": "Draw !M! cards."
+  },
+  "${modID}:GREEDY_STREAMER_GREED_IT_UP_OPTION": {
+    "NAME": "Greed it Up",
+    "DESCRIPTION": "Draw !M! cards, lose 1 ${modID}:Subscriber."
+  },
+  "${modID}:GREEDY_STREAMER_CARD": {
+    "NAME": "Greedy Streamer",
+    "DESCRIPTION": "${modID}:Choose_One: Draw !M! cards, or lose 1 ${modID}:Subscriber and draw 2 extra cards."
+  },
+  "${modID}:SELLOUT_TO_CHAT_FOR_THE_CASH_OPTION": {
+  "NAME": "For the Cash",
+  "DESCRIPTION": "Gain !M! Gold."
+  },
+  "${modID}:SELLOUT_TO_CHAT_FOR_THE_MEMES_OPTION": {
+    "NAME": "For the Memes",
+    "DESCRIPTION": "Gain !M! Subscribers."
+  },
+  "${modID}:SELLOUT_TO_CHAT_CARD": {
+    "NAME": "Sellout to Chat",
+    "DESCRIPTION": "Take 4 Damage NL ${modID}:Choose_One: NL Gain !M! Gold, or Gain 3 ${modID}:Subscribers. NL ${modID}:Performance 1. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Take 6 Damage NL ${modID}:Choose_One: NL Gain !M! Gold, or Gain 5 ${modID}:Subscribers. NL ${modID}:Performance 1. NL Exhaust"
+  },
+  "${modID}:STRENGTH_IN_NUMBERS_CARD": {
+    "NAME": "Strength In\nNumbers",
+    "DESCRIPTION": "Whenever you gain a Subscriber, gain !M! Block."
+  },
+  "${modID}:I_DONT_NEED_EM_CARD": {
+    "NAME": "I Don't Need 'em",
+    "DESCRIPTION": "Whenever you lose a Subscriber, gain !M! Strength."
+  },
+  "${modID}:AGGRESSIVE_AUDIENCE_CARD": {
+    "NAME": "Aggressive Audience",
+    "DESCRIPTION": "Whenever you gain a ${modID}:Subscriber or ${modID}:Follower, deal !M! damage to a random enemy."
+  },
+  "${modID}:SPONSERED_BY_RAID_SHADOW_LEGENDS_CARD": {
+    "NAME": "Sponsered by Raid\nShadow Legends",
+    "DESCRIPTION": "If you are a streamer, when this card is added to your deck, gain !M! gold. NL This cannot be removed from your deck. NL Ethereal, Unplayable"
+  },
+  "${modID}:SUBSCRIBE_WITH_TWITCH_PRIME_CARD": {
+    "NAME": "Subscribe with\nTwitch Prime",
+    "DESCRIPTION": "Deal !D! damage, gain !M! ${modID}:Subscriber. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, gain !M! ${modID}:Subscribers. NL Exhaust"
+  },
+  "${modID}:STREAM_RAID_CARD": {
+    "NAME": "Stream Raid",
+    "DESCRIPTION": "Deal Damage equal to half your ${modID}:Followers. NL ${modID}:Performance 2."
+  },
+  "${modID}:DISPOSABLE_ASSETS_SACRIFICE_OPTION": {
+    "NAME": "Sacrifice",
+    "DESCRIPTION": "Deal !D! Damage to 3 random enemies and lose 3 ${modID}:Subscribers."
+  },
+  "${modID}:DISPOSABLE_ASSETS_SAFETY_OPTION": {
+    "NAME": "Safety",
+    "DESCRIPTION": "Gain !B! Block and gain 2 ${modID}:Subscribers."
+  },
+  "${modID}:DISPOSABLE_ASSETS_CARD": {
+    "NAME": "Disposable Assets",
+    "DESCRIPTION": "${modID}:Choose_One: Deal !D! damage to 3 random enemies and lose 3 ${modID}:Subscribers, or Gain !B! Block and gain 2 ${modID}:Subscribers. NL Exhaust"
+  },
+  "${modID}:MULLIGAN_CARD": {
+    "NAME": "Mulligan",
+    "DESCRIPTION": "At the start of each turn, choose to either keep your hand, or discard it and Draw 5 new cards."
+  },
+  "${modID}:ELDRITCH_BLAST_CARD": {
+    "NAME": "Eldritch Blast",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Choose_One if Fatal effect: NL Recieve and extra Card Reward, NL Recieve an extra Gold Reward, NL Recieve an extra Potion Reward. NL ${modID}:Performance 2. NL Exhaust."
+  },
+  "${modID}:ELDRITCH_BLAST_CARD_OPTION": {
+    "NAME": "Get Options",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, recieve an extra Card Reward. NL Exhaust."
+  },
+  "${modID}:ELDRITCH_BLAST_GOLD_OPTION": {
+    "NAME": "Get Greedy",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, recieve an extra Gold Reward. NL Exhaust."
+  },
+  "${modID}:ELDRITCH_BLAST_POTION_OPTION": {
+    "NAME": "Get Tipsy",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, recieve an extra Potion Reward. NL Exhaust."
+  },
+  "${modID}:JEFF_BEZOS_CARD": {
+    "NAME": "Jeff Bezos",
+    "DESCRIPTION": "Add !M! Subscribe with Twitch Prime Cards to your hand. NL Exhaust"
+  },
+  "${modID}:FUELED_BY_CHAT_CARD": {
+    "NAME": "Fueled By Chat",
+    "DESCRIPTION": "Gain 1 Strength and 1 Dexterity for every !M! ${modID}:Followers you have (Rounded down)."
+  },
+  "${modID}:DOES_FROST_PRIME_HAVE_LETHAL_CARD": {
+    "NAME": "Frost Has Lethal?",
+    "DESCRIPTION": "Gain !M! ${modID}:Subscribers NL Die next turn. NL ${modID}:Performance 4. NL Exhaust"
+  },
+  "${modID}:DO_WE_DIG_FOR_IT_CARD": {
+    "NAME": "Dig For it?",
+    "DESCRIPTION": "Draw !M! cards NL Exhaust 1 Card."
+  },
+  "${modID}:ANDREW_CARD": {
+    "NAME": "ANDREW!",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL ${modID}:Performance 3."
+  },
+  "${modID}:BIG_BRAIN_PLAYS_DEFENSE_OPTION": {
+    "NAME": "Defense",
+    "DESCRIPTION": "Gain !M! Metallicize."
+  },
+  "${modID}:BIG_BRAIN_PLAYS_OFFENSE_OPTION": {
+    "NAME": "Offense",
+    "DESCRIPTION": "Gain !M! Thorns."
+  },
+  "${modID}:BIG_BRAIN_PLAYS_CARD": {
+    "NAME": "Big Brain Plays",
+    "DESCRIPTION": "${modID}:Choose_One: NL Gain !M! Metallicize, or gain !M! Thorns."
+  },
+  "${modID}:BUSTIN_MAKES_ME_FEEL_GOOD_CARD": {
+    "NAME": "Bustin Makes Me\nFeel Good",
+    "DESCRIPTION": "At the end of each turn, if you have no block, Bust (Heal !M! HP)."
+  },
+  "${modID}:POCKET_BRIMSTONE_CARD": {
+    "NAME": "Pocket Brimstone",
+    "DESCRIPTION": "Gain !M! Strength, give all enemies 1 Strength."
+  },
+  "${modID}:POCKET_BRIMSTONES_LESS_ANGRY_COUSIN_CARD": {
+    "NAME": "Pocket Brimstone's\nLess Angry Cousin",
+    "DESCRIPTION": "Gain !M! Dexterity, give all enemies 1 Metallicize."
+  },
+  "${modID}:LETS_DO_THAT_AGAIN_CARD": {
+    "NAME": "Let's Do That Again",
+    "DESCRIPTION": "Swap your Draw Pile and your Discard Pile."
+  },
+  "${modID}:HUMAN_SHIELD_CARD": {
+    "NAME": "Human Shield",
+    "DESCRIPTION": "If you would take unblocked attack damage this turn, prevent it and lose that many ${modID}:Followers. Only works up to your ${modID}:Follower count."
+  },
+  "${modID}:ASCENDED_FORM_CARD": {
+    "NAME": "Ascended Form",
+    "DESCRIPTION": "Ethereal. NL ${modID}:Choose_One: NL Play Demon Form, Wraith Form, Echo Form, or Deva Form.",
+    "UPGRADE_DESCRIPTION": "${modID}:Choose_One: NL Play Demon Form, Wraith Form, Echo Form, or Deva Form."
+  },
+  "${modID}:ASCENDED_FORM_DEMON_FORM_OPTION": {
+    "NAME": "Demon Form",
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength. NL ${modID}:Performance 4."
+  },
+  "${modID}:ASCENDED_FORM_WRAITH_FORM_OPTION": {
+    "NAME": "Wraith Form",
+    "DESCRIPTION": "Gain !M! Intangible. NL At the end of your turn, lose 1 Dexterity."
+  },
+  "${modID}:ASCENDED_FORM_ECHO_FORM_OPTION": {
+    "NAME": "Echo Form",
+    "DESCRIPTION": "Ethereal. NL The first card you play each turn is played twice.",
+    "UPGRADE_DESCRIPTION": "The first card you play each turn is played twice."
+  },
+  "${modID}:ASCENDED_FORM_DEVA_FORM_OPTION": {
+    "NAME": "Deva Form",
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, gain [E] and increase this gain by 1.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain [E] and increase this gain by 1."
+  },
+  "${modID}:MASTER_OF_SYNERGIES_CARD": {
+    "NAME": "Master of Synergies",
+    "DESCRIPTION": "Deal damage to ALL enemies equal to 1/4 your ${modID}:Follower count. NL Gain 1 ${modID}:Subscriber for each Gang card played this combat. NL Gain 5 Block for each Animal Card in your hand. NL ${modID}:Performance 4. NL Exhaust."
+  },
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  }
+}

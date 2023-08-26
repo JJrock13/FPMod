@@ -1,0 +1,99 @@
+[
+  {
+    "PROPER_NAME": "LuckFars",
+    "NAMES": [
+      "luckfars"
+    ],
+    "DESCRIPTION": "This card art was created by LuckFars on Discord."
+  },
+  {
+    "PROPER_NAME": "its_madda",
+    "NAMES": [
+      "its_madda"
+    ],
+    "DESCRIPTION": "This card art was created by its_madda on Discord."
+  },
+  {
+    "PROPER_NAME": "MarkenFreemanView",
+    "NAMES": [
+      "markenfreemanview"
+    ],
+    "DESCRIPTION": "This card art was created by MarkenFreemanView on Discord."
+  },
+  {
+    "PROPER_NAME": "stray_mutt_bones(Oliver)",
+    "NAMES": [
+      "stray_mutt_bones(Oliver)"
+    ],
+    "DESCRIPTION": "This card art was created by stray_mutt_bones(Oliver) on Discord."
+  },
+  {
+    "PROPER_NAME": "Memorial",
+    "NAMES": [
+      "Memorial"
+    ],
+    "DESCRIPTION": "In memory of Coco the cat and Dash the turtle, who passed during development."
+  },
+  {
+    "PROPER_NAME": "Animal Card",
+    "NAMES": [
+      "animalcard",
+      "animal_card"
+    ],
+    "DESCRIPTION": "This is an animal card, and is affected by effects which target animal cards."
+  },
+  {
+    "PROPER_NAME": "Gang Card",
+    "NAMES": [
+      "gangcard",
+      "gang_card"
+    ],
+    "DESCRIPTION": "This is an gang card, and is affected by effects which target gang cards."
+  },
+  {
+    "PROPER_NAME": "Subscriber",
+    "NAMES": [
+      "subscriber",
+      "Subscriber",
+      "subscribers",
+      "Subscribers"
+    ],
+    "DESCRIPTION": "Twitch Streamers can gain subscribers, gaining that many followers at the start of combat. You gain 5 gold any time you gain a Subscriber."
+  },
+  {
+    "PROPER_NAME": "Follower",
+    "NAMES": [
+      "follower",
+      "followers",
+      "Follower",
+      "Followers"
+    ],
+    "DESCRIPTION": "Twitch Streamers have followers during combat, starting with an amount equal to their Subscriber count. Some cards become more powerful if you have many followers."
+  },
+  {
+    "PROPER_NAME": "Performance",
+    "NAMES": [
+      "Performance",
+      "performance"
+    ],
+    "DESCRIPTION": "This card is popular with viewers and will gain you Followers for playing it."
+  },
+  {
+    "PROPER_NAME": "Choose One",
+    "NAMES": [
+      "Choose One",
+      "choose_one",
+      "choose1"
+    ],
+    "DESCRIPTION": "Choose 1 cards will present multiple options when played. If an option requires a target, the target must be chosen as part of playing the initial card."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces. In card text, you'll use the underscore versions."
+  }
+]

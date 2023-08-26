@@ -1,0 +1,142 @@
+{
+  "${modID}:CUM_GANG_POWER": {
+    "NAME": "Cum Gang",
+    "DESCRIPTIONS": [
+      "You have played ",
+      " Cum Gang card(s) this combat."
+    ]
+  },
+  "${modID}:CLOTHED_MOLE_RAT_GANG_POWER": {
+    "NAME": "Clothed Mole Rat Gang",
+    "DESCRIPTIONS": [
+      "You have played ",
+      " Clothed Mole Rat Gang card(s) this combat."
+    ]
+  },
+  "${modID}:MILF_GANG_POWER": {
+    "NAME": "MILF(Man I love Frost) Gang",
+    "DESCRIPTIONS": [
+      "You have played ",
+      " MILF Gang card(s) this combat."
+    ]
+  },
+  "${modID}:CLAW_GANG_POWER": {
+    "NAME": "Claw Gang",
+    "DESCRIPTIONS": [
+      "You have played ",
+      " Claw Gang card(s) this combat."
+    ]
+  },
+  "${modID}:FOLLOWERS_POWER": {
+    "NAME": "Followers",
+    "DESCRIPTIONS": [
+      "You have ",
+      " Followers for this combat."
+    ]
+  },
+  "${modID}:TAKING_SECONDS_POWER": {
+    "NAME": "Taking Seconds",
+    "DESCRIPTIONS": [
+      "You get to pick ",
+      " extra option(s) when you play a Choose 1 card."
+    ]
+  },
+  "${modID}:MULLIGAN_POWER": {
+    "NAME": "Mulligan",
+    "DESCRIPTIONS": [
+      "You can Mulligan your hand ",
+      " time(s) each turn."
+    ]
+  },
+  "${modID}:GANG_LEADER_POWER": {
+    "NAME": "Gang Leader",
+    "DESCRIPTIONS": [
+      "At the end of your turn, progress all gangs by ",
+      "."
+    ]
+  },
+  "${modID}:GANG_LORD_POWER": {
+    "NAME": "Gang Lord",
+    "DESCRIPTIONS": [
+      "Whenever you progress a gang, progress them by ",
+      " more."
+    ]
+  },
+  "${modID}:JOINING_FORCES_POWER": {
+    "NAME": "Joining Forces!",
+    "DESCRIPTIONS": [
+      "This turn, all gangs are progressed by any gang card.",
+      ""
+    ]
+  },
+  "${modID}:HAMPTER_HIDE_POWER": {
+    "NAME": "Hampter Hide",
+    "DESCRIPTIONS": [
+      "After the first instance of unblocked damage taken each turn gain 1 intangible.",
+      ""
+    ]
+  },
+  "${modID}:THEY_CAME_FOR_THE_PETS_POWER": {
+    "NAME": "They Came For The Pets",
+    "DESCRIPTIONS": [
+      "Whenever you play an Animal Card gain 1 Subscriber.",
+      ""
+    ]
+  },
+  "${modID}:PETS_ARE_THEIR_OWN_REWARD_POWER": {
+    "NAME": "They Came For The Pets",
+    "DESCRIPTIONS": [
+      "Your Animal Cards cost ",
+      " less."
+    ]
+  },
+  "${modID}:ILL_GIVE_YOU_A_TREAT_POWER": {
+    "NAME": "I'll Give You a Treat",
+    "DESCRIPTIONS": [
+      "Your next ",
+      " Animal Cards play twice."
+    ]
+  },
+  "${modID}:STRENGTH_IN_NUMBERS_POWER": {
+    "NAME": "Strength in Numbers",
+    "DESCRIPTIONS": [
+      "Whenever you gain a subscriber, gain ",
+      " block."
+    ]
+  },
+  "${modID}:I_DONT_NEED_EM_POWER": {
+    "NAME": "I Don't Need 'em",
+    "DESCRIPTIONS": [
+      "Whenever you lose a subscriber, gain ",
+      " Strength."
+    ]
+  },
+  "${modID}:AGGRESSIVE_AUDIENCE_POWER": {
+    "NAME": "Aggressive Audience",
+    "DESCRIPTIONS": [
+      "Whenever you gain a Subscriber or Follower, deal ",
+      " damage to a random enemy."
+    ]
+  },
+  "${modID}:JEFF_BEZOS_POWER": {
+    "NAME": "Jeff Bezos",
+    "DESCRIPTIONS": [
+      "At the start of each turn, add ",
+      " Subcribe with Twitch Prime cards to your hand."
+    ]
+  },
+  "${modID}:BUSTIN_POWER": {
+    "NAME": "Bustin",
+    "DESCRIPTIONS": [
+      "At the end of each turn, if you have no block, bust (heal ",
+      " HP)."
+    ]
+  },
+  "${modID}:HUMAN_SHIELD_POWER": {
+    "NAME": "Human Shield",
+    "DESCRIPTIONS": [
+      "If you would take unblocked attack damage this turn, prevent it and lose that many subscribers. Only works up to your subscriber count.",
+      ""
+    ]
+  }
+}
