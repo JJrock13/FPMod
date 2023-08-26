@@ -38,7 +38,7 @@ public class ANDREWCard extends BaseCard {
             CardRarity.COMMON, //Rarity. BASIC is for starting cards, then there's COMMON/UNCOMMON/RARE, and then SPECIAL and CURSE. SPECIAL is for cards you only get from events. Curse is for curses, except for special curses like Curse of the Bell and Necronomicurse.
             FrostCharacter.Enums.CARD_COLOR //The card color. If you're making your own character, it'll look something like this. Otherwise, it'll be CardColor.RED or something similar for a basegame character color.
     );
-
+//hello
     public static final String ID = makeID(cardInfo.baseId);
 
     //These will be used in the constructor. Technically you can just use the values directly,
