@@ -462,6 +462,20 @@
     "NAME": "Master of Synergies",
     "DESCRIPTION": "Deal damage to ALL enemies equal to 1/4 your ${modID}:Follower count. NL Gain 1 ${modID}:Subscriber for each Gang card played this combat. NL Gain 5 Block for each Animal Card in your hand. NL ${modID}:Performance 4. NL Exhaust."
   },
+  "${modID}:MARINE_BIOLOGIST_CARD": {
+    "NAME": "Marine Biologist",
+    "DESCRIPTION": "${modID}:Choose_One: NL Learn some fish facts, NL or NL learn some \"fish facts.\""
+  },
+  "${modID}:MARINE_BIOLOGIST_NITROGEN_CYCLE_OPTION": {
+    "NAME": "Nitrogen Cycle",
+    "DESCRIPTION": "Learn !M! fish fact NL per turn.",
+    "UPGRADE_DESCRIPTION": "Learn !M! fish facts NL per turn."
+  },
+  "${modID}:MARINE_BIOLOGIST_MEME_CYCLE_OPTION": {
+    "NAME": "Meme Cycle",
+    "DESCRIPTION": "Learn !M! \"fish fact\" NL per turn.",
+    "UPGRADE_DESCRIPTION": "Learn !M! \"fish fact\" NL per turn."
+  },
   "${modID}:ExampleCard": {
     "NAME": "Name",
     "DESCRIPTION": "Description.",

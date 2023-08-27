@@ -138,5 +138,11 @@
       "If you would take unblocked attack damage this turn, prevent it and lose that many subscribers. Only works up to your subscriber count.",
       ""
     ]
+  },
+  "${modID}:MEME_CYCLE_POWER": {
+    "NAME": "Meme Cycle",
+    "DESCRIPTIONS": [
+      "At the beginning of your turn gain #b1 subscriber and 5 followers. Also gain a random #yDebuff that gets progressively worse."
+    ]
   }
 }
