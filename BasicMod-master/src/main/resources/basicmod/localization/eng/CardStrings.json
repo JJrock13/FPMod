@@ -401,7 +401,7 @@
   },
   "${modID}:ANDREW_CARD": {
     "NAME": "ANDREW!",
-    "DESCRIPTION": "Deal !D! damage to all enemies. NL ${modID}:Performance 3."
+    "DESCRIPTION": "Deal !D! damage !M! times to all enemies. NL ${modID}:Performance 3."
   },
   "${modID}:BIG_BRAIN_PLAYS_DEFENSE_OPTION": {
     "NAME": "Defense",

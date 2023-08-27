@@ -4,9 +4,13 @@ import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.interfaces.*;
 import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.blue.Seek;
 import com.megacrit.cardcrawl.cards.purple.Eruption;
 import com.megacrit.cardcrawl.cards.purple.Wish;
+import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
@@ -29,10 +33,7 @@ import org.apache.logging.log4j.Logger;
 import org.scannotation.AnnotationDB;
 
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @SpireInitializer
 public class BasicMod implements
@@ -41,6 +42,8 @@ public class BasicMod implements
         EditRelicsSubscriber,
         EditCardsSubscriber,
         EditKeywordsSubscriber,
+        OnPlayerTurnStartSubscriber,
+        OnCardUseSubscriber,
         PostInitializeSubscriber {
     public static ModInfo info;
     public static String modID;
@@ -72,6 +75,7 @@ public class BasicMod implements
     }
 
     //This will be called by ModTheSpire because of the @SpireInitializer annotation at the top of the class.
+    public static ArrayList<AbstractCreature> aliveMonsters;
     public static void initialize() {
 
         new BasicMod();
@@ -236,5 +240,16 @@ public class BasicMod implements
                         UnlockTracker.markRelicAsSeen(relic.relicId);
                     }
                 });
+    }
+    @Override
+    public void receiveOnPlayerTurnStart() {
+
+    }
+
+    @Override
+    public void receiveCardUsed(AbstractCard abstractCard) {
+        ArrayList<AbstractMonster> monsters = new ArrayList<>(AbstractDungeon.getMonsters().monsters);
+        monsters.removeIf(m -> m.isDeadOrEscaped());
+        aliveMonsters = (ArrayList<AbstractCreature>) monsters.clone();
     }
 }
