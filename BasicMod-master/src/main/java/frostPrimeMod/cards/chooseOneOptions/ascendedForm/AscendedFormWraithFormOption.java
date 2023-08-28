@@ -4,6 +4,8 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DemonFormPower;
+import com.megacrit.cardcrawl.powers.IntangiblePlayerPower;
+import com.megacrit.cardcrawl.powers.IntangiblePower;
 import com.megacrit.cardcrawl.powers.WraithFormPower;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.cards.ChooseOneBaseOption;
@@ -48,7 +50,8 @@ public class AscendedFormWraithFormOption extends ChooseOneBaseOption {
         onChoseThisOption();
     }
     public void onChoseThisOption() {
-        this.addToBot(new ApplyPowerAction(p, p, new WraithFormPower(p, magicNumber)));
+        this.addToBot(new ApplyPowerAction(p, p, new IntangiblePlayerPower(p, magicNumber)));
+        this.addToBot(new ApplyPowerAction(p, p, new WraithFormPower(p, -1)));
         ChooseAgain(p, m);
     }
 

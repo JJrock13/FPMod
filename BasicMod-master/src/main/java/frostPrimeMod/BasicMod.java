@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.GainEnergyAction_Constructor_Patch;
 import frostPrimeMod.relics.BaseRelic;
 import frostPrimeMod.util.GeneralUtils;
 import frostPrimeMod.util.KeywordInfo;
@@ -244,7 +245,7 @@ public class BasicMod implements
     }
     @Override
     public void receiveOnPlayerTurnStart() {
-
+        GainEnergyAction_Constructor_Patch.energyGainedThisTurn = 0;
     }
 
     @Override

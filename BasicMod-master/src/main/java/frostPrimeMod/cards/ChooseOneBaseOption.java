@@ -18,7 +18,7 @@ import static frostPrimeMod.BasicMod.makeID;
 public abstract class ChooseOneBaseOption extends BaseCard{
 
     public ChooseOneBaseCard ParentCard;
-
+    public CardType parentType;
     public ChooseOneBaseOption(CardInfo cardInfo) {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
     }
@@ -26,8 +26,9 @@ public abstract class ChooseOneBaseOption extends BaseCard{
     protected void ChooseAgain(AbstractPlayer p, AbstractMonster m){
 
         new UseCardAction(this, m);
-
-        ParentCard.type = CardType.SKILL;
+        if (ParentCard != null) {
+            ParentCard.type = parentType;
+        }
         if (p.hasPower(makeID("TAKING_SECONDS_POWER"))){
             ((TakingSecondsPower)p.getPower(makeID("TAKING_SECONDS_POWER"))).repeat(this);
         }

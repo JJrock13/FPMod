@@ -476,6 +476,22 @@
     "DESCRIPTION": "Learn !M! \"fish fact\" NL per turn.",
     "UPGRADE_DESCRIPTION": "Learn !M! \"fish fact\" NL per turn."
   },
+  "${modID}:FISH_WASTE_CARD": {
+    "NAME": "Fish Waste",
+    "DESCRIPTION": "Ethereal. NL Add an *Ammonia to your hand. NL Exhaust."
+  },
+  "${modID}:AMMONIA_CARD": {
+    "NAME": "Ammonia",
+    "DESCRIPTION": "Ethereal. NL Gain !M! Energy. NL Add a *Void to your Draw NL Pile. Add a *Nitrite NL to your hand. NL Exhaust."
+  },
+  "${modID}:NITRITE_CARD": {
+    "NAME": "Nitrite",
+    "DESCRIPTION": "Ethereal. NL Draw !M! card(s), equal NL to energy gained this turn. NL Add a *Nitrate to your hand. NL Exhaust."
+  },
+  "${modID}:NITRATE_CARD": {
+    "NAME": "Nitrate",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Exhaust."
+  },
   "${modID}:ExampleCard": {
     "NAME": "Name",
     "DESCRIPTION": "Description.",

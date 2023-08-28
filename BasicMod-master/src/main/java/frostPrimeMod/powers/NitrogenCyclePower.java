@@ -1,10 +1,9 @@
 package frostPrimeMod.powers;
 
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.powers.AbstractPower;
 import frostPrimeMod.actions.FishFactAction;
-import frostPrimeMod.relics.starter.TwitchStreamerRelic;
+import frostPrimeMod.cards.chooseOneOptions.marineBiologist.AmmoniaCard;
 
 import static frostPrimeMod.BasicMod.makeID;
 
@@ -21,5 +20,6 @@ public class NitrogenCyclePower extends BasePower {
     }
     public void atStartOfTurn(){
         this.addToBot(new FishFactAction());
+        this.addToBot(new MakeTempCardInHandAction(new AmmoniaCard(), amount));
     }
 }

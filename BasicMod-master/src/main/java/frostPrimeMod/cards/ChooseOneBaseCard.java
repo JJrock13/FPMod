@@ -37,7 +37,6 @@ public abstract class ChooseOneBaseCard extends BaseCard{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.type = CardType.STATUS;
         Iterator var4 = stanceChoices.iterator();
 
         while(var4.hasNext()) {
@@ -47,7 +46,9 @@ public abstract class ChooseOneBaseCard extends BaseCard{
             }
             c.calculateCardDamage(m);
             ((ChooseOneBaseOption)c).ParentCard = this;
+            ((ChooseOneBaseOption)c).parentType = this.type;
         }
+        this.type = CardType.STATUS;
         if (AbstractDungeon.player.hasRelic(makeID("POWERFUL_INFLUENCE_RELIC"))){
             if (!((PowerfulInfluenceRelic)AbstractDungeon.player.getRelic(makeID("POWERFUL_INFLUENCE_RELIC"))).UsedThisFight) {
                 var4 = stanceChoices.iterator();

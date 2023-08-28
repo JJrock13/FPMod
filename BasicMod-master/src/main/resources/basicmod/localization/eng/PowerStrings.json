@@ -139,6 +139,12 @@
       ""
     ]
   },
+  "${modID}:NITROGEN_CYCLE_POWER": {
+    "NAME": "Nitrogen Cycle",
+    "DESCRIPTIONS": [
+      "At the beginning of your turn add an #Ammonia to your hand."
+    ]
+  },
   "${modID}:MEME_CYCLE_POWER": {
     "NAME": "Meme Cycle",
     "DESCRIPTIONS": [
