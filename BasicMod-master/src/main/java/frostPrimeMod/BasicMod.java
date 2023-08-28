@@ -44,6 +44,7 @@ public class BasicMod implements
         EditKeywordsSubscriber,
         OnPlayerTurnStartSubscriber,
         OnCardUseSubscriber,
+        AddAudioSubscriber,
         PostInitializeSubscriber {
     public static ModInfo info;
     public static String modID;
@@ -251,5 +252,10 @@ public class BasicMod implements
         ArrayList<AbstractMonster> monsters = new ArrayList<>(AbstractDungeon.getMonsters().monsters);
         monsters.removeIf(m -> m.isDeadOrEscaped());
         aliveMonsters = (ArrayList<AbstractCreature>) monsters.clone();
+    }
+
+    @Override
+    public void receiveAddAudio() {
+        BaseMod.addAudio("ANDREW_STORM","basicmod/sounds/storm.ogg");
     }
 }

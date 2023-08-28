@@ -26,6 +26,7 @@ import java.util.Random;
 public class AndrewAttackAction extends AbstractGameAction {
     private boolean hit = false;
     private int damage;
+    public static Sfx storm = new Sfx("basicmod/sounds/storm.ogg");
     public int counterMax;
 
     public TextureAtlas.AtlasRegion andrewFace = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("basicmod/andrewface.png"),0,0,157,230);
@@ -37,7 +38,7 @@ public class AndrewAttackAction extends AbstractGameAction {
 
         boolean playedMusic = false;
 
-        Sfx storm = new Sfx("basicmod/sounds/storm.ogg");
+
         storm.play(5);
 
     }
@@ -76,7 +77,7 @@ public class AndrewAttackAction extends AbstractGameAction {
             this.addToBot(new VFXAction(new LightningEffect(c.drawX, c.drawY)));
             this.addToBot(new VFXAction(new FlashAtkImgEffect(c.hb.cX, c.hb.cY, this.attackEffect)));
             this.addToBot(new SFXAction("ORB_LIGHTNING_EVOKE", 0.1F));
-            this.addToBot(new DamageAction(c, new DamageInfo(AbstractDungeon.player, this.damage),AttackEffect.LIGHTNING));
+            this.addToBot(new DamageAction(c, new DamageInfo(AbstractDungeon.player, this.damage),AttackEffect.NONE));
             randFloat = (rand.nextInt(50) / 100f);
             this.addToBot(new WaitAction(randFloat));
         }
