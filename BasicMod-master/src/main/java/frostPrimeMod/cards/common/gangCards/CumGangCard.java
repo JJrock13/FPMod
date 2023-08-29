@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.GainPowerEffect;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -36,6 +37,7 @@ public class CumGangCard extends BaseCard {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC); //Sets the card's Block and how much it increases when upgraded.
         setCostUpgrade(0);
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         this.keywords.add("frostprimethespire:markenfreemanview");
     }
 

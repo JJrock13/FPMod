@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 import frostPrimeMod.util.CardInfo;
 
@@ -30,6 +31,7 @@ public class GangInfluenceCard extends BaseCard {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC); //Sets the card's Block and how much it increases when upgraded.
         exhaust = true;
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(0);
     }
 

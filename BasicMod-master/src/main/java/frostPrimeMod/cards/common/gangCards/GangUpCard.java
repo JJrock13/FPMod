@@ -8,6 +8,7 @@ import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpAllGangsOption;
 import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpOneGangCard;
 import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpOneGangOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
@@ -29,6 +30,7 @@ public class GangUpCard extends ChooseOneBaseCard {
 
     public GangUpCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(0);
     }
 

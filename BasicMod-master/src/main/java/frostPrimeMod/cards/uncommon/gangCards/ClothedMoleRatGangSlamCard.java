@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.*;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -40,6 +41,7 @@ public class ClothedMoleRatGangSlamCard extends BaseCard {
     public ClothedMoleRatGangSlamCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setDamage(DAMAGE, UPG_DAMAGE);
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         rand = new Random(System.currentTimeMillis());
     }
 

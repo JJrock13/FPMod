@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -37,6 +38,7 @@ public class GangGangCard extends BaseCard {
     public GangGangCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it increases when upgraded.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
     }
 
     @Override

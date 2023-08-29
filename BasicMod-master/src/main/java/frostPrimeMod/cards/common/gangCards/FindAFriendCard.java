@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.CumGangPower;
 import frostPrimeMod.util.CardInfo;
 
@@ -38,6 +39,7 @@ public class FindAFriendCard extends BaseCard {
     public FindAFriendCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC); //Sets the card's Block and how much it increases when upgraded.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         this.keywords.add("frostprimethespire:luckfars");
         IDs = new ArrayList<String>();
         IDs.add(makeID("CLAW_GANG_CARD"));

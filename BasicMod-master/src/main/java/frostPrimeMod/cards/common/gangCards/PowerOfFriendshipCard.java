@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.CumGangPower;
 import frostPrimeMod.util.CardInfo;
 
@@ -33,6 +34,7 @@ public class PowerOfFriendshipCard extends BaseCard {
 
     public PowerOfFriendshipCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         IDs = new ArrayList<String>();
         IDs.add(makeID("CLAW_GANG_CARD"));
         IDs.add(makeID("CLOTHED_MOLE_RAT_GANG_CARD"));

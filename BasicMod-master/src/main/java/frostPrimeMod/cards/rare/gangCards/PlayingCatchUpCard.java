@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -30,6 +31,7 @@ public class PlayingCatchUpCard extends BaseCard {
     public PlayingCatchUpCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC);
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setExhaust(true);
     }
 

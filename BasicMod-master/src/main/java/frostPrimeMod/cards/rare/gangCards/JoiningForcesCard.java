@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.GangLordPower;
 import frostPrimeMod.powers.JoiningForcesPower;
 import frostPrimeMod.util.CardInfo;
@@ -27,6 +28,7 @@ public class JoiningForcesCard extends BaseCard {
 
     public JoiningForcesCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(0);
         this.keywords.add("frostprimethespire:luckfars");
     }

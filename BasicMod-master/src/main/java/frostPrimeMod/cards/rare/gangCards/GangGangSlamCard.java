@@ -8,6 +8,7 @@ import frostPrimeMod.cards.uncommon.gangCards.ClothedMoleRatGangSlamCard;
 import frostPrimeMod.cards.uncommon.gangCards.CumGangSlamCard;
 import frostPrimeMod.cards.uncommon.gangCards.MILFGangSlamCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.util.CardInfo;
 
 import static frostPrimeMod.BasicMod.makeID;
@@ -27,6 +28,7 @@ public class GangGangSlamCard extends BaseCard {
 
     public GangGangSlamCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(2);
     }
 

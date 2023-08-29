@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.GangLordPower;
 import frostPrimeMod.util.CardInfo;
 
@@ -33,6 +34,7 @@ public class GangLordCard extends BaseCard {
     public GangLordCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC);
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(2);
 
     }

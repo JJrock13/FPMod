@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.*;
 import frostPrimeMod.util.CardInfo;
 
@@ -40,6 +41,7 @@ public class ClawGangCard extends BaseCard {
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's Block and how much it increases when upgraded.
         setMagic(MAGIC,UPG_MAGIC);
         this.keywords.add("frostprimethespire:luckfars");
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         upgradesDescription = true;
     }
 

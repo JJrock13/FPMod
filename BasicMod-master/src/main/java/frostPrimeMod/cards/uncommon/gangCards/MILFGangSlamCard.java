@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -32,6 +33,7 @@ public class MILFGangSlamCard extends BaseCard {
 
     public MILFGangSlamCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setCostUpgrade(0);
     }
 

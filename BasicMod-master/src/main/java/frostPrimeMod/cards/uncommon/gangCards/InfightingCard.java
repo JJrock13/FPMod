@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class InfightingCard extends BaseCard {
     public InfightingCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's damage and how much it increases when upgraded.
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         IDs = new ArrayList<String>();
         IDs.add(makeID("CLAW_GANG_CARD"));
         IDs.add(makeID("CLOTHED_MOLE_RAT_GANG_CARD"));

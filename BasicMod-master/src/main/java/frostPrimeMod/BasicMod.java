@@ -15,6 +15,7 @@ import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.patches.GainEnergyAction_Constructor_Patch;
+import frostPrimeMod.potions.BasePotion;
 import frostPrimeMod.relics.BaseRelic;
 import frostPrimeMod.util.GeneralUtils;
 import frostPrimeMod.util.KeywordInfo;
@@ -95,6 +96,7 @@ public class BasicMod implements
 
     @Override
     public void receivePostInitialize() {
+        registerPotions();
         //This loads the image used as an icon in the in-game mods menu.
         Texture badgeTexture = TextureLoader.getTexture(resourcePath("badge.png"));
         //Set up the mod information displayed in the in-game mods menu.
@@ -259,4 +261,16 @@ public class BasicMod implements
     public void receiveAddAudio() {
         BaseMod.addAudio("ANDREW_STORM","basicmod/sounds/storm.ogg");
     }
+    public static void registerPotions() {
+        new AutoAdd(modID) //Loads files from this mod
+                .packageFilter(BasePotion.class) //In the same package as this class
+                .any(BasePotion.class, (info, potion) -> { //Run this code for any classes that extend this class
+                    //These three null parameters are colors.
+                    //If they're not null, they'll overwrite whatever color is set in the potions themselves.
+                    //This is because setting colors to whatever you want in the potion itself wasn't possible before.
+                    BaseMod.addPotion(potion.getClass(), null, null, null, potion.ID, potion.playerClass);
+                    //playerClass will make a potion character-specific. By default, it's null and will do nothing.
+                });
+    }
 }
+

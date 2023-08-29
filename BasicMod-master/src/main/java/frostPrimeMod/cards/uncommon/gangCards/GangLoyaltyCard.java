@@ -9,6 +9,7 @@ import frostPrimeMod.cards.chooseOneOptions.gangLoyalty.GangLoyaltyClothedMoleRa
 import frostPrimeMod.cards.chooseOneOptions.gangLoyalty.GangLoyaltyCumGangOption;
 import frostPrimeMod.cards.chooseOneOptions.gangLoyalty.GangLoyaltyMILFGangOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
@@ -34,6 +35,7 @@ public class GangLoyaltyCard extends ChooseOneBaseCard {
     public GangLoyaltyCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setMagic(MAGIC, UPG_MAGIC);
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
     }
 
     @Override

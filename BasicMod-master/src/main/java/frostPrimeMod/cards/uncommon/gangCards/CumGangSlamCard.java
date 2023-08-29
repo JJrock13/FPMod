@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
+import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.ClawGangPower;
 import frostPrimeMod.powers.ClothedMoleRatGangPower;
 import frostPrimeMod.powers.CumGangPower;
@@ -37,6 +38,7 @@ public class CumGangSlamCard extends BaseCard {
     public CumGangSlamCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         cardsPlayedThisTurn = 0;
+        AbstractCard_Class_Patch.isGangCard.set(this,true);
         setMagic(0);
     }
 
