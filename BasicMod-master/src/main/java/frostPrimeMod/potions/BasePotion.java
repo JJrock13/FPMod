@@ -12,16 +12,20 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 public abstract class BasePotion extends AbstractPotion {
-    private static final Field liquidImg, hybridImg, spotsImg;
+    private static final Field glassImg, liquidImg, hybridImg, spotsImg, outlineImg;
     static {
         try {
+            glassImg = AbstractPotion.class.getDeclaredField("containerImg");
             liquidImg = AbstractPotion.class.getDeclaredField("liquidImg");
             hybridImg = AbstractPotion.class.getDeclaredField("hybridImg");
             spotsImg = AbstractPotion.class.getDeclaredField("spotsImg");
+            outlineImg = AbstractPotion.class.getDeclaredField("outlineImg");
 
+            glassImg.setAccessible(true);
             liquidImg.setAccessible(true);
             hybridImg.setAccessible(true);
             spotsImg.setAccessible(true);
+            outlineImg.setAccessible(true);
         }
         catch (NoSuchFieldException e) {
             throw new RuntimeException("Failed to access potion image fields.", e);
@@ -81,6 +85,7 @@ public abstract class BasePotion extends AbstractPotion {
         return null;
     }
 
+
     public Texture getLiquidImg() {
         try {
             return (Texture) liquidImg.get(this);
@@ -103,6 +108,13 @@ public abstract class BasePotion extends AbstractPotion {
         }
     }
 
+    public void setGlassImg(Texture t) {
+        try {
+            glassImg.set(this, t);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+    }
     public void setLiquidImg(Texture t) {
         try {
             liquidImg.set(this, t);
@@ -120,6 +132,13 @@ public abstract class BasePotion extends AbstractPotion {
     public void setSpotsImg(Texture t) {
         try {
             spotsImg.set(this, t);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public void setOutlineImg(Texture t) {
+        try {
+            outlineImg.set(this, t);
         } catch (IllegalAccessException e) {
             throw new RuntimeException(e);
         }

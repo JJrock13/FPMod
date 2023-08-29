@@ -9,11 +9,18 @@
       " Exactly how depends on the potion, and you can set it up however you want."
     ]
   },
-  "${modID}:BOTTLED_PHEROMONES_POTION": {
-    "NAME": "Bottled Pheromones",
+  "${modID}:ATTRACTIVE_PHEROMONES_POTION": {
+    "NAME": "Attractive Pheromones",
     "DESCRIPTIONS": [
       "Choose #b1 of #b3 random #yGang cards to add to your hand, it costs #b0 this turn.",
       "Choose #b1 of #b3 random #yGang cards and add #b2 copies to your hand, they cost #b0 this turn."
+    ]
+  },
+  "${modID}:BOTTLED_PRISM_POTION": {
+    "NAME": "Bottled Prism",
+    "DESCRIPTIONS": [
+      "Choose #b1 of #b3 random cards of any color to add to your deck.",
+      "Choose #b1 of #b3 random cards of any color to add to your deck. Upgrade it."
     ]
   }
 }
