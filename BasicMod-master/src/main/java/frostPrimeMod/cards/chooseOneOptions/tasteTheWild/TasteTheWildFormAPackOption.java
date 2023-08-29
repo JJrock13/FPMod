@@ -10,10 +10,10 @@ import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.cards.common.animalCards.*;
 import frostPrimeMod.cards.rare.animalCards.HampterInTheShadowsCard;
-import frostPrimeMod.cards.uncommon.animalCards.BaybladeCard;
-import frostPrimeMod.cards.uncommon.animalCards.GliderTagTeamCard;
-import frostPrimeMod.cards.uncommon.animalCards.HampterHideCard;
-import frostPrimeMod.cards.uncommon.animalCards.HardyBoyStompCard;
+import frostPrimeMod.cards.rare.animalCards.PetsAreTheirOwnRewardCard;
+import frostPrimeMod.cards.rare.animalCards.TasteTheWildCard;
+import frostPrimeMod.cards.rare.animalCards.TooCuteCard;
+import frostPrimeMod.cards.uncommon.animalCards.*;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
@@ -61,6 +61,12 @@ public class TasteTheWildFormAPackOption extends ChooseOneBaseOption {
         animalCards.add(HardyBoyStompCard.ID);
         animalCards.add(HampterInTheShadowsCard.ID);
         animalCards.add(SugarGlideCard.ID);
+        animalCards.add(IllGiveYouATreatCard.ID);
+        animalCards.add(LivingInAZooCard.ID);
+        animalCards.add(PetsAreTheirOwnRewardCard.ID);
+        animalCards.add(TasteTheWildCard.ID);
+        animalCards.add(TheyCameForThePetsCard.ID);
+        animalCards.add(TooCuteCard.ID);
     }
 
     public TasteTheWildFormAPackOption(AbstractPlayer p, AbstractMonster m) {

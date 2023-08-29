@@ -20,7 +20,7 @@ public class BustinPower extends BasePower{
         super(POWER_ID, TYPE, TURN_BASED, owner, amount);
     }
 
-    public void atEndOfTurn(boolean isPlayer){
+    public void atEndOfTurnPreEndTurnCards(boolean isPlayer){
         if (owner.currentBlock == 0) {
             this.addToBot(new HealAction(owner, owner, amount));
         }

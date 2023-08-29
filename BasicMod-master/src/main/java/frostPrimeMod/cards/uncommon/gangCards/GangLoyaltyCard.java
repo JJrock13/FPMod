@@ -28,6 +28,8 @@ public class GangLoyaltyCard extends ChooseOneBaseCard {
     public static final String ID = makeID(cardInfo.baseId);
     private static final int MAGIC = 5;
     private static final int UPG_MAGIC = 3;
+    public AbstractPlayer p;
+    public AbstractMonster m;
 
     public GangLoyaltyCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
@@ -36,6 +38,8 @@ public class GangLoyaltyCard extends ChooseOneBaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        this.p = p;
+        this.m = m;
         onChoseThisOption();
     }
 
@@ -46,7 +50,7 @@ public class GangLoyaltyCard extends ChooseOneBaseCard {
         stanceChoices.add(new GangLoyaltyClothedMoleRatGangOption());
         stanceChoices.add(new GangLoyaltyClawGangOption());
         setChoices(stanceChoices);
-        super.use(null, null);
+        super.use(p, m);
     }
 
 }

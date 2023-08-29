@@ -8,10 +8,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.common.animalCards.*;
-import frostPrimeMod.cards.uncommon.animalCards.BaybladeCard;
-import frostPrimeMod.cards.uncommon.animalCards.GliderTagTeamCard;
-import frostPrimeMod.cards.uncommon.animalCards.HampterHideCard;
-import frostPrimeMod.cards.uncommon.animalCards.HardyBoyStompCard;
+import frostPrimeMod.cards.uncommon.animalCards.*;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.PetsAreTheirOwnRewardPower;
 import frostPrimeMod.powers.TheyCameForThePetsPower;
@@ -57,6 +54,12 @@ public class PetsAreTheirOwnRewardCard extends BaseCard {
         animalCards.add(HardyBoyStompCard.ID);
         animalCards.add(HampterInTheShadowsCard.ID);
         animalCards.add(SugarGlideCard.ID);
+        animalCards.add(IllGiveYouATreatCard.ID);
+        animalCards.add(LivingInAZooCard.ID);
+        animalCards.add(PetsAreTheirOwnRewardCard.ID);
+        animalCards.add(TasteTheWildCard.ID);
+        animalCards.add(TheyCameForThePetsCard.ID);
+        animalCards.add(TooCuteCard.ID);
 
         this.keywords.add("frostprimethespire:AnimalCard");
     }

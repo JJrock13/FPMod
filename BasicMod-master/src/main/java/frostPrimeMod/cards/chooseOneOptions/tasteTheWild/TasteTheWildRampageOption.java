@@ -48,7 +48,6 @@ public class TasteTheWildRampageOption extends ChooseOneBaseOption {
     }
 
     public void onChoseThisOption() {
-        calculateCardDamage(m);
         this.addToBot(new DamageAllEnemiesAction(p, this.damage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         ChooseAgain(p, m);
     }

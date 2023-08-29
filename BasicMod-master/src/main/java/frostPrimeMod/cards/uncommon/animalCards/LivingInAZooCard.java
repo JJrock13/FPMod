@@ -6,6 +6,9 @@ import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.DrawSpecificCardsBaseCard;
 import frostPrimeMod.cards.common.animalCards.*;
 import frostPrimeMod.cards.rare.animalCards.HampterInTheShadowsCard;
+import frostPrimeMod.cards.rare.animalCards.PetsAreTheirOwnRewardCard;
+import frostPrimeMod.cards.rare.animalCards.TasteTheWildCard;
+import frostPrimeMod.cards.rare.animalCards.TooCuteCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
@@ -47,6 +50,12 @@ public class LivingInAZooCard extends DrawSpecificCardsBaseCard {
         IDs.add(HardyBoyStompCard.ID);
         IDs.add(HampterInTheShadowsCard.ID);
         IDs.add(SugarGlideCard.ID);
+        IDs.add(IllGiveYouATreatCard.ID);
+        IDs.add(LivingInAZooCard.ID);
+        IDs.add(PetsAreTheirOwnRewardCard.ID);
+        IDs.add(TasteTheWildCard.ID);
+        IDs.add(TheyCameForThePetsCard.ID);
+        IDs.add(TooCuteCard.ID);
         super.setIDs(IDs);
         this.keywords.add("frostprimethespire:Memorial");
         this.keywords.add("frostprimethespire:AnimalCard");

@@ -47,8 +47,8 @@
   },
   "${modID}:CLAW_GANG_CARD": {
     "NAME": "Claw Gang!",
-    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by 2 for each Claw Gang card played this combat. NL ${modID}:Performance 2.",
-    "UPGRADE_DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by 2 for each Claw Gang card played this combat. NL ${modID}:Performance 2."
+    "DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by !M! for each Claw Gang card played this combat. NL ${modID}:Performance 2.",
+    "UPGRADE_DESCRIPTION": "${modID}:Gang_Card. NL Deal !D! damage. NL Increases by !M! for each Claw Gang card played this combat. NL ${modID}:Performance 2."
   },
   "${modID}:GANG_UP_CARD": {
     "NAME": "Gang Up",

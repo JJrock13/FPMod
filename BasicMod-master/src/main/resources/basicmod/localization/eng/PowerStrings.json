@@ -79,7 +79,7 @@
   "${modID}:THEY_CAME_FOR_THE_PETS_POWER": {
     "NAME": "They Came For The Pets",
     "DESCRIPTIONS": [
-      "Whenever you play an Animal Card gain 1 Subscriber.",
+      "Whenever you play an Animal Card gain 1 Follower.",
       ""
     ]
   },

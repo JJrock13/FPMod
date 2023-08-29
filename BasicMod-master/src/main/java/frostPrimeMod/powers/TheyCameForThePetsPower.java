@@ -3,16 +3,17 @@ package frostPrimeMod.powers;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.common.animalCards.*;
 import frostPrimeMod.cards.rare.animalCards.HampterInTheShadowsCard;
-import frostPrimeMod.cards.uncommon.animalCards.BaybladeCard;
-import frostPrimeMod.cards.uncommon.animalCards.GliderTagTeamCard;
-import frostPrimeMod.cards.uncommon.animalCards.HampterHideCard;
-import frostPrimeMod.cards.uncommon.animalCards.HardyBoyStompCard;
+import frostPrimeMod.cards.rare.animalCards.PetsAreTheirOwnRewardCard;
+import frostPrimeMod.cards.rare.animalCards.TasteTheWildCard;
+import frostPrimeMod.cards.rare.animalCards.TooCuteCard;
+import frostPrimeMod.cards.uncommon.animalCards.*;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
 import java.util.ArrayList;
@@ -47,14 +48,25 @@ public class TheyCameForThePetsPower extends BasePower{
         animalCards.add(HardyBoyStompCard.ID);
         animalCards.add(HampterInTheShadowsCard.ID);
         animalCards.add(SugarGlideCard.ID);
+        animalCards.add(IllGiveYouATreatCard.ID);
+        animalCards.add(LivingInAZooCard.ID);
+        animalCards.add(PetsAreTheirOwnRewardCard.ID);
+        animalCards.add(TasteTheWildCard.ID);
+        animalCards.add(TheyCameForThePetsCard.ID);
+        animalCards.add(TooCuteCard.ID);
     }
 
 
     @Override
-    public void onAfterCardPlayed(AbstractCard usedCard) {
-        super.onAfterCardPlayed(usedCard);
+    public void onUseCard(AbstractCard usedCard, UseCardAction action) {
+        super.onUseCard(usedCard, action);
         boolean animalCardPlayed = false;
-
+        for (String s : animalCards) {
+            if (usedCard.cardID.equals(s)) {
+                animalCardPlayed = true;
+                this.flash();
+            }
+        }
         if (animalCardPlayed){
             this.addToBot(new ApplyPowerAction(owner, owner, new FollowersPower(owner, amount)));
         }

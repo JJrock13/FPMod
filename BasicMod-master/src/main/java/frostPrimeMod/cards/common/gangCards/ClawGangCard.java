@@ -38,6 +38,7 @@ public class ClawGangCard extends BaseCard {
     public ClawGangCard() {
         super(cardInfo); //Pass the cardInfo to the BaseCard constructor.
         setDamage(DAMAGE, UPG_DAMAGE); //Sets the card's Block and how much it increases when upgraded.
+        setMagic(MAGIC,UPG_MAGIC);
         this.keywords.add("frostprimethespire:luckfars");
         upgradesDescription = true;
     }
