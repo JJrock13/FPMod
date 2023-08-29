@@ -1,5 +1,7 @@
 package frostPrimeMod.cards.chooseOneOptions.gangUp;
 
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.GetCardsFromDiscardPileBaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
@@ -20,11 +22,20 @@ public class GangUpClawGangOption extends GetCardsFromDiscardPileBaseCard {
     );
 
     public static final String ID = makeID(cardInfo.baseId);
-
+    private AbstractPlayer p;
+    private AbstractMonster m;
     public GangUpClawGangOption() {
         super(cardInfo);
         ArrayList<String> IDs = new ArrayList<>();
         IDs.add(makeID("CLAW_GANG_CARD"));
+        super.setIDs(IDs);
+    }
+    public GangUpClawGangOption(AbstractPlayer p, AbstractMonster m) {
+        super(cardInfo);
+        ArrayList<String> IDs = new ArrayList<>();
+        IDs.add(makeID("CLAW_GANG_CARD"));
+        this.p = p;
+        this.m = m;
         super.setIDs(IDs);
     }
 }

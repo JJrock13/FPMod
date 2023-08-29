@@ -54,6 +54,10 @@
     "NAME": "Gang Up",
     "DESCRIPTION": "${modID}:Choose_One: NL Return 1 card from each gang, or all cards from 1 gang to your hand from your discard pile"
   },
+  "${modID}:GANG_UP_ONE_GANG_CARD": {
+    "NAME": "One Gang",
+    "DESCRIPTION": "Return ALL cards from one gang to your hand from your discard pile."
+  },
   "${modID}:GANG_UP_ONE_GANG_OPTION": {
     "NAME": "One Gang",
     "DESCRIPTION": "Return ALL cards from one gang to your hand from your discard pile."

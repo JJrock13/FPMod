@@ -25,12 +25,22 @@ public class GangUpCumGangOption extends GetCardsFromDiscardPileBaseCard {
     );
 
     public static final String ID = makeID(cardInfo.baseId);
-
+    private AbstractPlayer p;
+    private AbstractMonster m;
     public GangUpCumGangOption() {
         super(cardInfo);
         ArrayList<String> IDs = new ArrayList<>();
         IDs.add(makeID("CUM_GANG_CARD"));
         IDs.add(makeID("CUM_GANG_SLAM_CARD"));
+        super.setIDs(IDs);
+    }
+    public GangUpCumGangOption(AbstractPlayer p, AbstractMonster m) {
+        super(cardInfo);
+        ArrayList<String> IDs = new ArrayList<>();
+        IDs.add(makeID("CUM_GANG_CARD"));
+        IDs.add(makeID("CUM_GANG_SLAM_CARD"));
+        this.p = p;
+        this.m = m;
         super.setIDs(IDs);
     }
 }

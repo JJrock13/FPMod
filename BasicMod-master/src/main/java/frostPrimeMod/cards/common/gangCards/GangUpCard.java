@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpAllGangsOption;
+import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpOneGangCard;
 import frostPrimeMod.cards.chooseOneOptions.gangUp.GangUpOneGangOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
@@ -34,7 +35,7 @@ public class GangUpCard extends ChooseOneBaseCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         ArrayList<AbstractCard> stanceChoices = new ArrayList<>();
-        stanceChoices.add(new GangUpOneGangOption());
+        stanceChoices.add(new GangUpOneGangOption(p, m));
         stanceChoices.add(new GangUpAllGangsOption(p, m));
         setChoices(stanceChoices);
         super.use(p, m);
