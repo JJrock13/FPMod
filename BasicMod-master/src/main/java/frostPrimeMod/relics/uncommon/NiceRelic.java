@@ -32,5 +32,9 @@ public class NiceRelic extends BaseRelic {
             AbstractDungeon.player.maxHealth = 69;
         }
     }
+    @Override
+    public String getUpdatedDescription() {
+        return this.DESCRIPTIONS[0];
+    }
 
 }

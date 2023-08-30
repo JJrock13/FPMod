@@ -23,4 +23,8 @@ public class PowerfulInfluenceRelic extends BaseRelic {
         super.atPreBattle();
         UsedThisFight = false;
     }
+    @Override
+    public String getUpdatedDescription() {
+        return this.DESCRIPTIONS[0];
+    }
 }

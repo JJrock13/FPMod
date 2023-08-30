@@ -53,14 +53,14 @@
     "NAME": "Marketable Face",
     "FLAVOR": "People are drawn to your good looks and charisma. You tend to gain subscribers faster.",
     "DESCRIPTIONS": [
-      "Whenever you gain subscribers, gain 1 more."
+      "Whenever you gain #ysubscribers, gain 1 more."
     ]
   },
   "${modID}:PACK_LEADER_RELIC": {
     "NAME": "Pack Leader",
     "FLAVOR": "As the leader of the pack, your animals are always there to defend you.",
     "DESCRIPTIONS": [
-      "Gain 3 Block whenever you play an ${modID}:Animal_Card."
+      "Gain 3 Block whenever you play an #yAnimal #yCard."
     ]
   },
   "${modID}:POWERFUL_INFLUENCE_RELIC": {
@@ -71,7 +71,7 @@
     ]
   },
   "${modID}:MONSTER_ENERGY_RELIC": {
-    "NAME": "Powerful Influence",
+    "NAME": "Monster Energy",
     "FLAVOR": "The highs and lows of caffeine follow you into battle.",
     "DESCRIPTIONS": [
       "Gain 1 Energy every other turn."
@@ -81,7 +81,7 @@
     "NAME": "Famous Person Discount",
     "FLAVOR": "Gathering enough of a following can be quite profitable.",
     "DESCRIPTIONS": [
-      "If you have at least 100 subscribers, gain a 40% discount at all stores."
+      "If you have at least #b100 #ysubscribers, gain a #b40% discount at all stores."
     ]
   }
 }

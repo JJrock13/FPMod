@@ -30,5 +30,8 @@ public class CumKingRelic extends BaseRelic {
         super.onUnequip();
         AbstractDungeon.player.masterHandSize -= 1;
     }
-
+    @Override
+    public String getUpdatedDescription() {
+        return this.DESCRIPTIONS[0];
+    }
 }

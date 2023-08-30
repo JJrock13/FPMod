@@ -23,7 +23,10 @@ public class MarketableFaceRelic extends BaseRelic {
         super(ID, NAME, FrostCharacter.Enums.CARD_COLOR, RARITY, SOUND);
     }
 
-
+    @Override
+    public String getUpdatedDescription() {
+        return this.DESCRIPTIONS[0];
+    }
 
 
 }

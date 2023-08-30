@@ -41,4 +41,8 @@ public class MonsterEnergyRelic extends BaseRelic {
         }
 
     }
+    @Override
+    public String getUpdatedDescription() {
+        return this.DESCRIPTIONS[0];
+    }
 }
