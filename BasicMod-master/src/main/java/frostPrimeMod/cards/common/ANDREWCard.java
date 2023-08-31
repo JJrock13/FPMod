@@ -1,38 +1,16 @@
 package frostPrimeMod.cards.common;
 
-import basemod.helpers.VfxBuilder;
-import com.badlogic.gdx.graphics.Color;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.utility.SFXAction;
-import com.megacrit.cardcrawl.actions.utility.WaitAction;
-import com.megacrit.cardcrawl.audio.Sfx;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.blue.ThunderStrike;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
-import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
-import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
 import frostPrimeMod.actions.AndrewAttackAction;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.FollowersPower;
 import frostPrimeMod.util.CardInfo;
 
-import java.util.Iterator;
-
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class ANDREWCard extends BaseCard {
 

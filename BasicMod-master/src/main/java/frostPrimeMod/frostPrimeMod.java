@@ -5,9 +5,6 @@ import basemod.BaseMod;
 import basemod.interfaces.*;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.blue.Seek;
-import com.megacrit.cardcrawl.cards.purple.Eruption;
-import com.megacrit.cardcrawl.cards.purple.Wish;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -38,7 +35,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 @SpireInitializer
-public class BasicMod implements
+public class frostPrimeMod implements
         EditStringsSubscriber,
         EditCharactersSubscriber,
         EditRelicsSubscriber,
@@ -52,7 +49,7 @@ public class BasicMod implements
     public static String modID;
     static { loadModInfo(); }
     public static final Logger logger = LogManager.getLogger(modID); //Used to output to the console.
-    private static final String resourcesFolder = "basicmod";
+    private static final String resourcesFolder = "frostPrimeResources";
 
     private static final String BG_ATTACK = characterPath("cardback/bg_attack.png");
     private static final String BG_ATTACK_P = characterPath("cardback/bg_attack_p.png");
@@ -81,7 +78,7 @@ public class BasicMod implements
     public static ArrayList<AbstractCreature> aliveMonsters;
     public static void initialize() {
 
-        new BasicMod();
+        new frostPrimeMod();
 
         BaseMod.addColor(FrostCharacter.Enums.CARD_COLOR, cardColor,
                 BG_ATTACK, BG_SKILL, BG_POWER, ENERGY_ORB,
@@ -89,7 +86,7 @@ public class BasicMod implements
 
     }
 
-    public BasicMod() {
+    public frostPrimeMod() {
         BaseMod.subscribe(this); //This will make BaseMod trigger all the subscribers at their appropriate times.
         logger.info(modID + " subscribed to BaseMod.");
     }
@@ -205,7 +202,7 @@ public class BasicMod implements
             if (annotationDB == null)
                 return false;
             Set<String> initializers = annotationDB.getAnnotationIndex().getOrDefault(SpireInitializer.class.getName(), Collections.emptySet());
-            return initializers.contains(BasicMod.class.getName());
+            return initializers.contains(frostPrimeMod.class.getName());
         }).findFirst();
         if (infos.isPresent()) {
             info = infos.get();
@@ -259,7 +256,7 @@ public class BasicMod implements
 
     @Override
     public void receiveAddAudio() {
-        BaseMod.addAudio("ANDREW_STORM","basicmod/sounds/storm.ogg");
+        BaseMod.addAudio("ANDREW_STORM", "frostPrimeResources/sounds/storm.ogg");
     }
     public static void registerPotions() {
         new AutoAdd(modID) //Loads files from this mod

@@ -2,15 +2,11 @@ package frostPrimeMod.potions;
 
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.events.shrines.WeMeetAgain;
 import com.megacrit.cardcrawl.helpers.CardHelper;
-import com.megacrit.cardcrawl.rooms.AbstractRoom;
-import frostPrimeMod.actions.PheromonesAction;
 import frostPrimeMod.actions.PrismAction;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class BottledPrismPotion extends BasePotion{
     private static final String ID = makeID("BOTTLED_PRISM_POTION");

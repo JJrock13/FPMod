@@ -1,16 +1,9 @@
 package frostPrimeMod.relics.rare;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import frostPrimeMod.frostCharacter.FrostCharacter;
-import frostPrimeMod.powers.ClawGangPower;
-import frostPrimeMod.powers.ClothedMoleRatGangPower;
-import frostPrimeMod.powers.CumGangPower;
-import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MarketableFaceRelic extends BaseRelic {
     private static final String NAME = "MARKETABLE_FACE_RELIC"; //The name will be used for determining the image file as well as the ID.

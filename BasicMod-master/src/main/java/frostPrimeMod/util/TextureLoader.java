@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
-import static frostPrimeMod.BasicMod.*;
+import static frostPrimeMod.frostPrimeMod.*;
 
 import java.util.HashMap;
 import java.util.Locale;

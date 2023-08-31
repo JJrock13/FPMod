@@ -1,18 +1,13 @@
 package frostPrimeMod.cards.chooseOneOptions.gangUp;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
-import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangUpOneGangOption extends ChooseOneBaseOption {
     private final static CardInfo cardInfo = new CardInfo(

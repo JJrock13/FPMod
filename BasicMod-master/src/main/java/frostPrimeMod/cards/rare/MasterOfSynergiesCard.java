@@ -17,7 +17,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MasterOfSynergiesCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

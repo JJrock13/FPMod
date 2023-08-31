@@ -1,12 +1,9 @@
 package frostPrimeMod.powers;
 
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import frostPrimeMod.cards.common.gangCards.ClawGangCard;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class FollowersPower extends BasePower{
     public static final String POWER_ID = makeID("FOLLOWERS_POWER");

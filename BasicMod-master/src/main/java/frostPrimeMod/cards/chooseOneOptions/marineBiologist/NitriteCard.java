@@ -10,7 +10,7 @@ import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.patches.GainEnergyAction_Constructor_Patch;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class NitriteCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

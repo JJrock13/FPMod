@@ -11,12 +11,11 @@ import frostPrimeMod.cards.common.animalCards.*;
 import frostPrimeMod.cards.uncommon.animalCards.*;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.PetsAreTheirOwnRewardPower;
-import frostPrimeMod.powers.TheyCameForThePetsPower;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PetsAreTheirOwnRewardCard extends BaseCard {
 

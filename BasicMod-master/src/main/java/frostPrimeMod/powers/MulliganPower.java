@@ -1,12 +1,9 @@
 package frostPrimeMod.powers;
 
-import com.megacrit.cardcrawl.actions.common.HealAction;
-import com.megacrit.cardcrawl.actions.unique.RetainCardsAction;
-import com.megacrit.cardcrawl.cards.green.WellLaidPlans;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import frostPrimeMod.actions.MulliganAction;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MulliganPower extends BasePower{
     public static final String POWER_ID = makeID("MULLIGAN_POWER");

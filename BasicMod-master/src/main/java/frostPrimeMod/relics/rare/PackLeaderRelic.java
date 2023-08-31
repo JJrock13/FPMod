@@ -1,17 +1,14 @@
 package frostPrimeMod.relics.rare;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.LoseStrengthPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PackLeaderRelic extends BaseRelic {
     private static final String NAME = "PACK_LEADER_RELIC"; //The name will be used for determining the image file as well as the ID.

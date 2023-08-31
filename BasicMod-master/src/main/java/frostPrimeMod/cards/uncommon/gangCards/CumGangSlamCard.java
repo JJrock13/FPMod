@@ -1,10 +1,8 @@
 package frostPrimeMod.cards.uncommon.gangCards;
 
-import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -19,7 +17,7 @@ import frostPrimeMod.powers.CumGangPower;
 import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class CumGangSlamCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

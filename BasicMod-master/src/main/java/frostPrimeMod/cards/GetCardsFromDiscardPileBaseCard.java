@@ -5,15 +5,10 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinNob;
-import frostPrimeMod.cards.BaseCard;
-import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import static frostPrimeMod.BasicMod.makeID;
 
 public abstract class GetCardsFromDiscardPileBaseCard extends ChooseOneBaseOption {
 

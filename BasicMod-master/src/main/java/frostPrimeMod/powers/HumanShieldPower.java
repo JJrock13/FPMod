@@ -3,11 +3,9 @@ package frostPrimeMod.powers;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class HumanShieldPower extends GangPower{
     public static final String POWER_ID = makeID("HUMAN_SHIELD_POWER");

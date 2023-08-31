@@ -27,8 +27,8 @@ import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.characterPath;
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.characterPath;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class FrostCharacter extends CustomPlayer {
     //Stats

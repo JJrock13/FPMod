@@ -5,7 +5,6 @@ import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.common.animalCards.*;
@@ -14,11 +13,10 @@ import frostPrimeMod.cards.rare.animalCards.PetsAreTheirOwnRewardCard;
 import frostPrimeMod.cards.rare.animalCards.TasteTheWildCard;
 import frostPrimeMod.cards.rare.animalCards.TooCuteCard;
 import frostPrimeMod.cards.uncommon.animalCards.*;
-import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TheyCameForThePetsPower extends BasePower{
     public static final String POWER_ID = makeID("THEY_CAME_FOR_THE_PETS_POWER");

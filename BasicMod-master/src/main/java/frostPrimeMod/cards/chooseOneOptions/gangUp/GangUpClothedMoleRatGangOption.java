@@ -8,7 +8,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangUpClothedMoleRatGangOption extends GetCardsFromDiscardPileBaseCard {
 

@@ -14,7 +14,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangLoyaltyCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

@@ -1,13 +1,12 @@
 package frostPrimeMod.cards.chooseOneOptions.gangLoyalty;
 
 import frostPrimeMod.cards.DrawSpecificCardsBaseCard;
-import frostPrimeMod.cards.GetCardsFromDiscardPileBaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangLoyaltyClawGangOption extends DrawSpecificCardsBaseCard {
 

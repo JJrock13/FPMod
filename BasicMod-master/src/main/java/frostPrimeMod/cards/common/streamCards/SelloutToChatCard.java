@@ -3,25 +3,21 @@ package frostPrimeMod.cards.common.streamCards;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.red.Offering;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.city.Byrd;
 import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.chooseOneOptions.selloutToChat.SelloutToChatForTheCashOption;
 import frostPrimeMod.cards.chooseOneOptions.selloutToChat.SelloutToChatForTheMemesOption;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBabyOption;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBugsOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.FollowersPower;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class SelloutToChatCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

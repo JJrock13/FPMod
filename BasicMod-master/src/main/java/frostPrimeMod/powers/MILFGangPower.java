@@ -2,7 +2,7 @@ package frostPrimeMod.powers;
 
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MILFGangPower extends GangPower{
     public static final String POWER_ID = makeID("MILF_GANG_POWER");

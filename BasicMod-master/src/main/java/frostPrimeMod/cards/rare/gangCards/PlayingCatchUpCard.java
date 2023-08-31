@@ -12,7 +12,7 @@ import frostPrimeMod.powers.CumGangPower;
 import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PlayingCatchUpCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

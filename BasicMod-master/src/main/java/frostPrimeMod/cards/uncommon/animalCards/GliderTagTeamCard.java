@@ -6,14 +6,12 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.chooseOneOptions.gliderTagTeam.DiveBombDuoOption;
 import frostPrimeMod.cards.chooseOneOptions.gliderTagTeam.EvasiveManeuversOption;
-import frostPrimeMod.cards.chooseOneOptions.hardyBoyStomp.BigStompOption;
-import frostPrimeMod.cards.chooseOneOptions.hardyBoyStomp.CrushingStompOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GliderTagTeamCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

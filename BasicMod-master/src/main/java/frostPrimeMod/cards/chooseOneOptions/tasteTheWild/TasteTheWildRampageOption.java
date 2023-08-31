@@ -1,17 +1,14 @@
 package frostPrimeMod.cards.chooseOneOptions.tasteTheWild;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TasteTheWildRampageOption extends ChooseOneBaseOption {
 

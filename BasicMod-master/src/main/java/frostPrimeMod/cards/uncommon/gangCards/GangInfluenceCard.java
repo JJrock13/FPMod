@@ -9,7 +9,7 @@ import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangInfluenceCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

@@ -9,7 +9,7 @@ import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class CockroachCrunchCard extends BaseCard {
 

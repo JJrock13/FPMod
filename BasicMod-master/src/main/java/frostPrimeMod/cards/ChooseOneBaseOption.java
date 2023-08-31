@@ -2,18 +2,11 @@ package frostPrimeMod.cards;
 
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.monsters.beyond.TimeEater;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinNob;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.AngerPower;
-import com.megacrit.cardcrawl.relics.AbstractRelic;
 import frostPrimeMod.powers.TakingSecondsPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public abstract class ChooseOneBaseOption extends BaseCard{
 

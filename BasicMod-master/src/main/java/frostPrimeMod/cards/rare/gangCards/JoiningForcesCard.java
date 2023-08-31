@@ -6,11 +6,10 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.patches.AbstractCard_Class_Patch;
-import frostPrimeMod.powers.GangLordPower;
 import frostPrimeMod.powers.JoiningForcesPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class JoiningForcesCard extends BaseCard {
 

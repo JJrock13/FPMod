@@ -1,24 +1,15 @@
 package frostPrimeMod.cards.chooseOneOptions.sugarGlide;
 
-import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.StrengthPower;
-import com.megacrit.cardcrawl.vfx.BorderLongFlashEffect;
-import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
-import frostPrimeMod.cards.BaseCard;
-import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class SugarGlideBugsOption extends ChooseOneBaseOption {
 

@@ -6,12 +6,11 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.MetallicizePower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PocketBrimstonesLessAngryCousinCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

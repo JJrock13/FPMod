@@ -9,27 +9,24 @@ import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
 import com.megacrit.cardcrawl.audio.Sfx;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
 import com.megacrit.cardcrawl.vfx.combat.LightningEffect;
-import frostPrimeMod.BasicMod;
+import frostPrimeMod.frostPrimeMod;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 
 public class AndrewAttackAction extends AbstractGameAction {
     private boolean hit = false;
     private int damage;
-    public static Sfx storm = new Sfx("basicmod/sounds/storm.ogg");
+    public static Sfx storm = new Sfx("frostPrimeResources/sounds/storm.ogg");
     public int counterMax;
 
-    public TextureAtlas.AtlasRegion andrewFace = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("basicmod/andrewface.png"),0,0,157,230);
+    public TextureAtlas.AtlasRegion andrewFace = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("frostPrimeResources/andrewface.png"),0,0,157,230);
 
     public AndrewAttackAction(AbstractCreature source, int dmg, int magic) {
         this.damage = dmg;
@@ -57,9 +54,9 @@ public class AndrewAttackAction extends AbstractGameAction {
         float randFloat;
         int randInt;
         ArrayList<AbstractCreature> attackOrder = new ArrayList<>();
-        ArrayList<AbstractCreature> enemiesLeft = (ArrayList<AbstractCreature>) BasicMod.aliveMonsters.clone();
+        ArrayList<AbstractCreature> enemiesLeft = (ArrayList<AbstractCreature>) frostPrimeMod.aliveMonsters.clone();
 
-        while (attackOrder.size() < BasicMod.aliveMonsters.size() * counterMax){
+        while (attackOrder.size() < frostPrimeMod.aliveMonsters.size() * counterMax){
             randInt = rand.nextInt(enemiesLeft.size());
             attackOrder.add(enemiesLeft.get(randInt));
             int numRandInt = 0;

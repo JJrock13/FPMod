@@ -1,7 +1,6 @@
 package frostPrimeMod.cards.rare;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.red.DemonForm;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
@@ -9,14 +8,12 @@ import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormDemonFormOp
 import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormDevaFormOption;
 import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormEchoFormOption;
 import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormWraithFormOption;
-import frostPrimeMod.cards.chooseOneOptions.bigBrainPlays.BigBrainPlaysDefenseOption;
-import frostPrimeMod.cards.chooseOneOptions.bigBrainPlays.BigBrainPlaysOffenseOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class AscendedFormCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

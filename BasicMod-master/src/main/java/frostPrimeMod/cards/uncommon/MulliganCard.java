@@ -3,14 +3,12 @@ package frostPrimeMod.cards.uncommon;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.MulliganPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MulliganCard extends BaseCard {
 

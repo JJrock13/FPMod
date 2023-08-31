@@ -1,8 +1,5 @@
 package frostPrimeMod.cards.chooseOneOptions.gangUp;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.GetCardsFromDiscardPileBaseCard;
@@ -11,7 +8,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class GangUpCumGangOption extends GetCardsFromDiscardPileBaseCard {
 

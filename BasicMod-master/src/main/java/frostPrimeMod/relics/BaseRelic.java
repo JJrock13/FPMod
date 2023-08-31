@@ -4,7 +4,7 @@ import basemod.abstracts.CustomRelic;
 import basemod.helpers.RelicType;
 import frostPrimeMod.util.TextureLoader;
 
-import static frostPrimeMod.BasicMod.relicPath;
+import static frostPrimeMod.frostPrimeMod.relicPath;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.helpers.ImageMaster;

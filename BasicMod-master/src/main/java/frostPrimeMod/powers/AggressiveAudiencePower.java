@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class AggressiveAudiencePower extends GangPower implements TwitchStreamerRelic.SubscriberObserver {
     public static final String POWER_ID = makeID("AGGRESSIVE_AUDIENCE_POWER");

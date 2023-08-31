@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class ClothedMoleRatGangSlamCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

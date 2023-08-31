@@ -5,7 +5,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.cards.common.animalCards.*;
@@ -19,8 +18,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.player;
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TasteTheWildFormAPackOption extends ChooseOneBaseOption {
 

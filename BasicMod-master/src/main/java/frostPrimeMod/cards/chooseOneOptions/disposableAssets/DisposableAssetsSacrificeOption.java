@@ -10,7 +10,7 @@ import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class DisposableAssetsSacrificeOption extends ChooseOneBaseOption {
 

@@ -6,7 +6,7 @@ import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.BaseRelic;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PromotedTwitchStreamerRelic extends BaseRelic {
     private static final String NAME = "PROMOTED_TWITCH_STREAMER_RELIC"; //The name will be used for determining the image file as well as the ID.

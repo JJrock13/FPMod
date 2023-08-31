@@ -1,21 +1,14 @@
 package frostPrimeMod.cards.common;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
-import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
-import com.megacrit.cardcrawl.cards.red.TrueGrit;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
-import frostPrimeMod.powers.ClawGangPower;
-import frostPrimeMod.powers.ClothedMoleRatGangPower;
-import frostPrimeMod.powers.CumGangPower;
-import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class DoWeDigForItCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

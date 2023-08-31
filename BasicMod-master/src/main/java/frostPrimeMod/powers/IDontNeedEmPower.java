@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class IDontNeedEmPower extends GangPower implements TwitchStreamerRelic.SubscriberObserver {
     public static final String POWER_ID = makeID("I_DONT_NEED_EM_POWER");

@@ -6,14 +6,12 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.chooseOneOptions.bunnyTagTeam.BunnyTagTeamBevinOption;
 import frostPrimeMod.cards.chooseOneOptions.bunnyTagTeam.BunnyTagTeamBunOption;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBabyOption;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBugsOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class BunnyTagTeamCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

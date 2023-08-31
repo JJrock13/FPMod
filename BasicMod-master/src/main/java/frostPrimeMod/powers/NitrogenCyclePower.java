@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import frostPrimeMod.actions.FishFactAction;
 import frostPrimeMod.cards.chooseOneOptions.marineBiologist.AmmoniaCard;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class NitrogenCyclePower extends BasePower {
     public static final String POWER_ID = makeID("NITROGEN_CYCLE_POWER");

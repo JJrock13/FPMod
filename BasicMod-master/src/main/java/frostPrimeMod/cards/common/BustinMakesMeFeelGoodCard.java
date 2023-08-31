@@ -1,7 +1,6 @@
 package frostPrimeMod.cards.common;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
@@ -9,7 +8,7 @@ import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.BustinPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class BustinMakesMeFeelGoodCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

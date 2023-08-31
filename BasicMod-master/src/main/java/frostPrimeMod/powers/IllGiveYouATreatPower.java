@@ -18,7 +18,7 @@ import frostPrimeMod.cards.uncommon.animalCards.*;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class IllGiveYouATreatPower extends BasePower{
     public static final String POWER_ID = makeID("ILL_GIVE_YOU_A_TREAT_POWER");

@@ -7,7 +7,7 @@ import frostPrimeMod.actions.PheromonesAction;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class AttractivePheromonesPotion extends BasePotion{
     private static final String ID = makeID("ATTRACTIVE_PHEROMONES_POTION");

@@ -3,13 +3,12 @@ package frostPrimeMod.cards.chooseOneOptions.EldritchBlast;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import frostPrimeMod.actions.EldritchBlastCardAction;
 import frostPrimeMod.actions.EldritchBlastPotionAction;
 import frostPrimeMod.cards.ChooseOneBaseOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class EldritchBlastPotionOption extends ChooseOneBaseOption {
 

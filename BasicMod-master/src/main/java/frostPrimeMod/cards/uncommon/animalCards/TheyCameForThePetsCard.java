@@ -9,7 +9,7 @@ import frostPrimeMod.powers.FollowersPower;
 import frostPrimeMod.powers.TheyCameForThePetsPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TheyCameForThePetsCard extends BaseCard {
 

@@ -4,8 +4,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
-import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormDemonFormOption;
-import frostPrimeMod.cards.chooseOneOptions.ascendedForm.AscendedFormWraithFormOption;
 import frostPrimeMod.cards.chooseOneOptions.marineBiologist.MemeCycleOption;
 import frostPrimeMod.cards.chooseOneOptions.marineBiologist.NitrogenCycleOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
@@ -13,7 +11,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class MarineBiologistCard extends ChooseOneBaseCard {
 

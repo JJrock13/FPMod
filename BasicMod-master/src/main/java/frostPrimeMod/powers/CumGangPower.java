@@ -1,9 +1,8 @@
 package frostPrimeMod.powers;
 
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class CumGangPower extends GangPower{
     public static final String POWER_ID = makeID("CUM_GANG_POWER");

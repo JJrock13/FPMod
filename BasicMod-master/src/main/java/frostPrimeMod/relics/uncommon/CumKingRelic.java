@@ -1,12 +1,10 @@
 package frostPrimeMod.relics.uncommon;
 
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.relics.SneckoEye;
-import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class CumKingRelic extends BaseRelic {
     private static final String NAME = "CUM_KING_RELIC"; //The name will be used for determining the image file as well as the ID.

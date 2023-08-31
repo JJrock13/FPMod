@@ -6,7 +6,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TakingSecondsPower extends GangPower{
     public static final String POWER_ID = makeID("TAKING_SECONDS_POWER");

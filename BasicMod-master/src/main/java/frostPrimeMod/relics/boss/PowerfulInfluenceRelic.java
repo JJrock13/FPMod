@@ -1,10 +1,9 @@
 package frostPrimeMod.relics.boss;
 
-import com.megacrit.cardcrawl.relics.SneckoEye;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PowerfulInfluenceRelic extends BaseRelic {
     private static final String NAME = "POWERFUL_INFLUENCE_RELIC"; //The name will be used for determining the image file as well as the ID.

@@ -1,10 +1,8 @@
 package frostPrimeMod.cards.common.gangCards;
 
-import basemod.patches.com.megacrit.cardcrawl.cards.AbstractCard.DamageHooks;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -15,7 +13,7 @@ import frostPrimeMod.patches.AbstractCard_Class_Patch;
 import frostPrimeMod.powers.*;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class ClawGangCard extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

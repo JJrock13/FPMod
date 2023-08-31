@@ -2,20 +2,15 @@ package frostPrimeMod.relics.common;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.red.Flex;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.LoseStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import frostPrimeMod.frostCharacter.FrostCharacter;
-import frostPrimeMod.powers.ClawGangPower;
-import frostPrimeMod.powers.ClothedMoleRatGangPower;
-import frostPrimeMod.powers.CumGangPower;
-import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class HardyBoysCollarRelic extends BaseRelic {
     private static final String NAME = "HARDY_BOYS_COLLAR_RELIC"; //The name will be used for determining the image file as well as the ID.

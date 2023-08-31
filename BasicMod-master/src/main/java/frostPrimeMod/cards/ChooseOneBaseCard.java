@@ -1,17 +1,10 @@
 package frostPrimeMod.cards;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.optionCards.BecomeAlmighty;
-import com.megacrit.cardcrawl.cards.optionCards.FameAndFortune;
-import com.megacrit.cardcrawl.cards.optionCards.LiveForever;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.TakingSecondsPower;
 import frostPrimeMod.relics.boss.PowerfulInfluenceRelic;
 import frostPrimeMod.util.CardInfo;
@@ -19,7 +12,7 @@ import frostPrimeMod.util.CardInfo;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public abstract class ChooseOneBaseCard extends BaseCard{
 

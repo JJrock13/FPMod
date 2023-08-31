@@ -6,10 +6,9 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.BaseCard;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.IDontNeedEmPower;
-import frostPrimeMod.powers.StrengthInNumbersPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class IDontNeedEmCard extends BaseCard {
 

@@ -1,14 +1,13 @@
 package frostPrimeMod.powers;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.*;
 import frostPrimeMod.actions.FakeFactAction;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 import java.util.Random;
 
 public class MemeCyclePower extends BasePower {

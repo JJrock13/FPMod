@@ -1,7 +1,5 @@
 package frostPrimeMod.cards.uncommon.animalCards;
 
-import com.megacrit.cardcrawl.cards.red.DoubleTap;
-import com.megacrit.cardcrawl.powers.DoubleTapPower;
 import frostPrimeMod.cards.Basic.SugarGlideCard;
 import frostPrimeMod.cards.DrawSpecificCardsBaseCard;
 import frostPrimeMod.cards.common.animalCards.*;
@@ -14,7 +12,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class LivingInAZooCard extends DrawSpecificCardsBaseCard {
 

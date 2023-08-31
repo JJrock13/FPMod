@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import frostPrimeMod.relics.starter.TwitchStreamerRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class StrengthInNumbersPower extends GangPower implements TwitchStreamerRelic.SubscriberObserver {
     public static final String POWER_ID = makeID("STRENGTH_IN_NUMBERS_POWER");

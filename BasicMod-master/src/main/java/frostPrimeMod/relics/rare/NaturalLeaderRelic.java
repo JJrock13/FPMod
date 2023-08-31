@@ -10,7 +10,7 @@ import frostPrimeMod.powers.CumGangPower;
 import frostPrimeMod.powers.MILFGangPower;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class NaturalLeaderRelic extends BaseRelic {
     private static final String NAME = "NATURAL_LEADER_RELIC"; //The name will be used for determining the image file as well as the ID.

@@ -1,12 +1,10 @@
 package frostPrimeMod.relics.starter;
 
-import basemod.devcommands.relic.RelicAdd;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.relics.BaseRelic;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class ActiveStreamerRelic extends BaseRelic {
     private static final String NAME = "ACTIVE_STREAMER_RELIC"; //The name will be used for determining the image file as well as the ID.

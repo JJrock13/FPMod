@@ -4,8 +4,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import frostPrimeMod.cards.ChooseOneBaseCard;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBabyOption;
-import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBugsOption;
 import frostPrimeMod.cards.chooseOneOptions.tasteTheWild.TasteTheWildFormAPackOption;
 import frostPrimeMod.cards.chooseOneOptions.tasteTheWild.TasteTheWildRampageOption;
 import frostPrimeMod.frostCharacter.FrostCharacter;
@@ -13,7 +11,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TasteTheWildCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

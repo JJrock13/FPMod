@@ -12,7 +12,7 @@ import frostPrimeMod.frostCharacter.FrostCharacter;
 import frostPrimeMod.powers.FollowersPower;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class YEPCard extends BaseCard {
 

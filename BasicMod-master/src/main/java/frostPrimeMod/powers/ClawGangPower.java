@@ -6,7 +6,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import frostPrimeMod.cards.common.gangCards.ClawGangCard;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class ClawGangPower extends GangPower{
     public static final String POWER_ID = makeID("CLAW_GANG_POWER");

@@ -1,19 +1,15 @@
 package frostPrimeMod.cards;
 
 import basemod.abstracts.CustomCard;
-import basemod.helpers.TooltipInfo;
-import frostPrimeMod.BasicMod;
+import frostPrimeMod.frostPrimeMod;
 import frostPrimeMod.util.CardInfo;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 import static frostPrimeMod.util.TextureLoader.getCardTextureString;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 public abstract class BaseCard extends CustomCard {
@@ -216,7 +212,7 @@ public abstract class BaseCard extends CustomCard {
             {
                 if (cardStrings.UPGRADE_DESCRIPTION == null)
                 {
-                    BasicMod.logger.error("Card " + cardID + " upgrades description and has null upgrade description.");
+                    frostPrimeMod.logger.error("Card " + cardID + " upgrades description and has null upgrade description.");
                 }
                 else
                 {

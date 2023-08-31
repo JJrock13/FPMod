@@ -3,9 +3,6 @@ package frostPrimeMod.cards.Basic;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.monsters.exordium.GremlinNob;
-import com.megacrit.cardcrawl.powers.AngerPower;
-import com.megacrit.cardcrawl.powers.AngryPower;
 import frostPrimeMod.cards.ChooseOneBaseCard;
 import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBabyOption;
 import frostPrimeMod.cards.chooseOneOptions.sugarGlide.SugarGlideBugsOption;
@@ -14,7 +11,7 @@ import frostPrimeMod.util.CardInfo;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class SugarGlideCard extends ChooseOneBaseCard {
     private final static CardInfo cardInfo = new CardInfo(

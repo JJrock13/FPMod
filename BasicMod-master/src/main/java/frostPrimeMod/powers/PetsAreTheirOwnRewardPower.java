@@ -12,7 +12,7 @@ import frostPrimeMod.cards.uncommon.animalCards.*;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class PetsAreTheirOwnRewardPower extends BasePower{
     public static final String POWER_ID = makeID("PETS_ARE_THEIR_OWN_REWARD_POWER");

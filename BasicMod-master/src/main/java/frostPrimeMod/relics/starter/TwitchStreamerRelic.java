@@ -1,7 +1,6 @@
 package frostPrimeMod.relics.starter;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainGoldAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.PowerTip;
@@ -11,7 +10,7 @@ import frostPrimeMod.relics.BaseRelic;
 
 import java.util.ArrayList;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class TwitchStreamerRelic extends BaseRelic {
     private static final String NAME = "TWITCH_STREAMER_RELIC"; //The name will be used for determining the image file as well as the ID.

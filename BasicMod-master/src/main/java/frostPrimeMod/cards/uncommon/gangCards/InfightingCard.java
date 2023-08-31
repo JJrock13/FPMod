@@ -1,7 +1,6 @@
 package frostPrimeMod.cards.uncommon.gangCards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.common.DiscardSpecificCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -17,7 +16,7 @@ import frostPrimeMod.util.CardInfo;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import static frostPrimeMod.BasicMod.makeID;
+import static frostPrimeMod.frostPrimeMod.makeID;
 
 public class InfightingCard extends BaseCard {
 
