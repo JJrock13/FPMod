@@ -142,13 +142,15 @@
   "${modID}:NITROGEN_CYCLE_POWER": {
     "NAME": "Nitrogen Cycle",
     "DESCRIPTIONS": [
-      "At the beginning of your turn add an #Ammonia to your hand."
+      "At the beginning of your turn add an Ammonia to your hand.",
+      ""
     ]
   },
   "${modID}:MEME_CYCLE_POWER": {
     "NAME": "Meme Cycle",
     "DESCRIPTIONS": [
-      "At the beginning of your turn gain #b1 subscriber and 5 followers. Also gain a random #yDebuff that gets progressively worse."
+      "At the beginning of your turn gain ",
+      " subscriber(s) and 5 times that many followers. Also gain a random #yDebuff that gets progressively worse."
     ]
   }
 }

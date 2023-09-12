@@ -61,4 +61,8 @@ public class MemeCyclePower extends BasePower {
         ((TwitchStreamerRelic)AbstractDungeon.player.getRelic(makeID("TWITCH_STREAMER_RELIC"))).addSubscribers(1);
         this.counter ++;
     }
+
+    public void updateDescription() {
+        this.description = DESCRIPTIONS[0] + amount + DESCRIPTIONS[1];
+    }
 }

@@ -22,4 +22,8 @@ public class NitrogenCyclePower extends BasePower {
         this.addToBot(new FishFactAction());
         this.addToBot(new MakeTempCardInHandAction(new AmmoniaCard(), amount));
     }
+
+    public void updateDescription() {
+        this.description = DESCRIPTIONS[0];
+    }
 }
